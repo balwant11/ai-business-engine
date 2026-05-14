@@ -1,159 +1,197 @@
 [
     {
-      "name": "K & C India Exports",
+      "name": "Shradha Export Mill",
       "address": "",
-      "full_address": "A-828, Money Plant Highstreet, Nr BSNL Office, Jagatpur Road, Sarkhej - Gandhinagar Hwy, Jagatpur, Ahmedabad, Gujarat 382470, India",
-      "phone": "'+91 96806 13890",
-      "local_phone": "096806 13890",
-      "website": "",
+      "full_address": "258, New Cloth Market, Sarangpur, Sherkotda, Ahmedabad, Gujarat 380002, India",
+      "phone": "+91 79 2216 3011",
+      "local_phone": "079 2216 3011",
+      "website": "http://www.shradhaexpo.com/",
       "zomato": "",
       "facebook": "",
       "instagram": "",
       "place_id": "",
-      "rating": 3,
-      "total_reviews": 2,
+      "rating": 4.9,
+      "total_reviews": 43,
       "business_status": "OPERATIONAL",
-      "google_maps_url": "https://maps.google.com/?cid=10263438489876499376",
+      "google_maps_url": "https://maps.google.com/?cid=9296736712775922563",
       "price_level": "",
       "editorial_summary": "",
-      "lat": 23.1143819,
-      "lng": 72.53763579999999,
-      "northeast_lat": 23.1158876802915,
-      "northeast_lng": 72.53900298029151,
-      "southwest_lat": 23.1131897197085,
-      "southwest_lng": 72.5363050197085,
-      "open_now": false,
+      "lat": 23.0185489,
+      "lng": 72.5995374,
+      "northeast_lat": 23.0199220302915,
+      "northeast_lng": 72.6009107302915,
+      "southwest_lat": 23.0172240697085,
+      "southwest_lng": 72.5982127697085,
+      "open_now": true,
       "weekday_hours": [
-        "Monday: 10:00 AM – 7:00 PM",
-        "Tuesday: 10:00 AM – 7:00 PM",
-        "Wednesday: 10:00 AM – 7:00 PM",
-        "Thursday: 10:00 AM – 7:00 PM",
-        "Friday: 10:00 AM – 7:00 PM",
-        "Saturday: 10:00 AM – 7:00 PM",
+        "Monday: 11:00 AM – 7:00 PM",
+        "Tuesday: 11:00 AM – 7:00 PM",
+        "Wednesday: 11:00 AM – 7:00 PM",
+        "Thursday: 11:00 AM – 7:00 PM",
+        "Friday: 11:00 AM – 7:00 PM",
+        "Saturday: 11:00 AM – 7:00 PM",
         "Sunday: Closed"
       ],
       "reviews": [
         {
-          "author_name": "Chahak kalal Kalal",
-          "author_url": "https://www.google.com/maps/contrib/111879899164196882779/reviews",
-          "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocLNcao_aOIbFKiBroJ_sSlJHY1IuUBSh_moZFWMAmmAcBWtFA=s128-c0x00000000-cc-rp-mo",
-          "language": "en",
-          "original_language": "en",
-          "rating": 1,
-          "review": "Bad experience",
-          "time_ago": "5 months ago",
-          "timestamp": 1764989222,
-          "translated": false
-        },
-        {
-          "author_name": "sanjay patel",
-          "author_url": "https://www.google.com/maps/contrib/109717423587442299086/reviews",
-          "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocI5Dqv6Z1jxKI0YbvrU48m_sWXZHY60iFQ_yn0Zr052z06nmw=s128-c0x00000000-cc-rp-mo-ba2",
+          "author_name": "Ankit Agarwal",
+          "author_url": "https://www.google.com/maps/contrib/103610574147114003790/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a-/ALV-UjX4n_wAdvJiPQ8GnRwllD-lhx9mHCWYWPtk12pS5z7zdPUsVcL3=s128-c0x00000000-cc-rp-mo-ba2",
           "language": "en",
           "original_language": "en",
           "rating": 5,
-          "review": "Bast quality  and excellent service",
-          "time_ago": "2 years ago",
-          "timestamp": 1698059315,
+          "review": "Excellent quality bedsheet fabrics! The material feels premium, soft, and durable. Their designs and colors are vibrant, and delivery was quick. Highly recommended for anyone looking for reliable fabric manufacturers.",
+          "time_ago": "5 months ago",
+          "timestamp": 1765439111,
+          "translated": false
+        },
+        {
+          "author_name": "Rishav Ec",
+          "author_url": "https://www.google.com/maps/contrib/111475900339142249736/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocLCmKfikp1im8DnR6x9BvxQ8O_o_PcPkmBvaFE4kqqa8RCYVw=s128-c0x00000000-cc-rp-mo",
+          "language": "en",
+          "original_language": "en",
+          "rating": 5,
+          "review": "Biggest and best collection of all types of Bedsheet fabric in Ahmedabad. Have been associated with this business for more than 30 years 🙂",
+          "time_ago": "5 months ago",
+          "timestamp": 1765387720,
+          "translated": false
+        },
+        {
+          "author_name": "IRFAN KHAN",
+          "author_url": "https://www.google.com/maps/contrib/114647295834305166965/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a-/ALV-UjUsOMYRhHZ0xroClKsYxGDW6z7onIDID-mkXxb0O1H4GG0qkCk=s128-c0x00000000-cc-rp-mo",
+          "language": "en",
+          "original_language": "en",
+          "rating": 5,
+          "review": "Ayush from sharda export are very helpful and highly versed in fabric quality.. keep it up good work team shradha export ♥️♥️",
+          "time_ago": "5 months ago",
+          "timestamp": 1765390035,
+          "translated": false
+        },
+        {
+          "author_name": "Pankaj Chaudhary Chaudhary",
+          "author_url": "https://www.google.com/maps/contrib/105054020566046309798/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocJBZnEB7xolyBU57gTyiu4nLuMec6K2-ZPCmv0kJjatUT7sUg=s128-c0x00000000-cc-rp-mo",
+          "language": "en",
+          "original_language": "en",
+          "rating": 5,
+          "review": "Good experience to work with Sharda Export Mill.Commited to delivery and quality.All types of designs available same as well prices.👍",
+          "time_ago": "5 months ago",
+          "timestamp": 1765389659,
+          "translated": false
+        },
+        {
+          "author_name": "Dhaval bagadia",
+          "author_url": "https://www.google.com/maps/contrib/101300747992551952630/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a-/ALV-UjVOPsjFRT4Jw6gpHVCousoTMW7zcf2SVaI7Syosows5RBXWf6E=s128-c0x00000000-cc-rp-mo-ba2",
+          "language": "en",
+          "original_language": "en",
+          "rating": 5,
+          "review": "Best quality , Best rate, and so much collection of design in sheetings....\nAnd ready sets...",
+          "time_ago": "5 months ago",
+          "timestamp": 1765435395,
           "translated": false
         }
       ],
       "types": [
         "establishment",
-        "point_of_interest"
+        "home_goods_store",
+        "point_of_interest",
+        "store"
       ],
-      "types_string": "establishment, point_of_interest",
+      "types_string": "establishment, home_goods_store, point_of_interest, store",
       "photos": [
         {
-          "photo_reference": "Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg",
-          "width": 800,
-          "height": 600,
+          "photo_reference": "Ab43m-s3o3K6vBR1hrxtDr52Y9CmXff3etymsZ5B5dyw7JHy2n2Oe4YEAhEl3NM4_CYry8lBNA6CKdxiANnOHD-3n0m5_V9TJd4f0LEX93rwsrMy6xtzFuyNkhhFj1W6EuXZGOHvPgr1A92yj2vJRlHFS1rigtruIKcSvXmnDpsUca0H-r4kAGm7k6PayGViUnxAh6IvjQ92uAzdVwbKObCuLoGC9jY5jWlXUTpUUcL5fL5Km9dcZROwhDjP32FFZ_DUvI67XypTqaWW1EIa-CXsZFaUMlvgCvGI0-CO5Gmj0dly1w",
+          "width": 451,
+          "height": 254,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-s3o3K6vBR1hrxtDr52Y9CmXff3etymsZ5B5dyw7JHy2n2Oe4YEAhEl3NM4_CYry8lBNA6CKdxiANnOHD-3n0m5_V9TJd4f0LEX93rwsrMy6xtzFuyNkhhFj1W6EuXZGOHvPgr1A92yj2vJRlHFS1rigtruIKcSvXmnDpsUca0H-r4kAGm7k6PayGViUnxAh6IvjQ92uAzdVwbKObCuLoGC9jY5jWlXUTpUUcL5fL5Km9dcZROwhDjP32FFZ_DUvI67XypTqaWW1EIa-CXsZFaUMlvgCvGI0-CO5Gmj0dly1w&key=YOUR_API_KEY"
         },
         {
-          "photo_reference": "Ab43m-scRjlqK7N2MYvT7Q8cnvHNPGg5NVtYL4pYRxVA_DbBT3kz6s7SHzjM5bGXtYvtBc3VxObATaoFoZBlkGN2bM79gN3UWzPK2QpUvNo7mJDUdudMHg2DPlPyq0nhAoD82wYarcVujcVisHaB-UiMaK3RHhKhSCvxiDRgUxF0yqZMj05tBB1wi9XJyDjCIuywH6rY04i6MpXVqpsQDmIzwGlZRcQVujyMiB3PAnERJJGd4a1ck7qa9wv_4zOf6eVstTvZ_SnhgGSAe5qqTb5NP8H182Cg_Rh_2Zxo3kotauW8fg",
-          "width": 800,
-          "height": 600,
+          "photo_reference": "Ab43m-uHX-L_bz9E4sBUwQb8A8q6Q-lprt3kzVUrwK1bFWBaCPyj7Xg6a6QHOYQkRB_LjYTMHdKWd7Lz9q9n1mgz4g8q32Y1CDjRd-KkELvJHHqvEBhUp6xU_UbfrBz7C1B8Wp-bNXXpBDE1e68OH9ACP3UciLB2BCEOQhQx524FCWxifViHVbbzzqtLU3R7ksuThrljTTO4TfeF1GXCy_qxXfpgJSj2SiJT_-9eWynSu5HaOIzEZBSnAy18gglOsBxKds3xLz-0HHn589_78Ag-NYnHQRKMgTJi8gQPfUSF51lC-A",
+          "width": 4032,
+          "height": 3024,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-scRjlqK7N2MYvT7Q8cnvHNPGg5NVtYL4pYRxVA_DbBT3kz6s7SHzjM5bGXtYvtBc3VxObATaoFoZBlkGN2bM79gN3UWzPK2QpUvNo7mJDUdudMHg2DPlPyq0nhAoD82wYarcVujcVisHaB-UiMaK3RHhKhSCvxiDRgUxF0yqZMj05tBB1wi9XJyDjCIuywH6rY04i6MpXVqpsQDmIzwGlZRcQVujyMiB3PAnERJJGd4a1ck7qa9wv_4zOf6eVstTvZ_SnhgGSAe5qqTb5NP8H182Cg_Rh_2Zxo3kotauW8fg&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-uHX-L_bz9E4sBUwQb8A8q6Q-lprt3kzVUrwK1bFWBaCPyj7Xg6a6QHOYQkRB_LjYTMHdKWd7Lz9q9n1mgz4g8q32Y1CDjRd-KkELvJHHqvEBhUp6xU_UbfrBz7C1B8Wp-bNXXpBDE1e68OH9ACP3UciLB2BCEOQhQx524FCWxifViHVbbzzqtLU3R7ksuThrljTTO4TfeF1GXCy_qxXfpgJSj2SiJT_-9eWynSu5HaOIzEZBSnAy18gglOsBxKds3xLz-0HHn589_78Ag-NYnHQRKMgTJi8gQPfUSF51lC-A&key=YOUR_API_KEY"
         },
         {
-          "photo_reference": "Ab43m-s40ecCOovXSmAlRfVBsltrdqNr0c8WAZ2Mh58HKOW38BbWOIuGqyCBti9CL9lCFRxiZtf4dVSZxBuW_ZrfmlJ_h6aMhih2E8e8HKFNpfSNH3aZm-9P0P3CSTWkl9KAJZSMUU-bEbQxL2aw8dpEBCK2SrB7OKtkv3v3leqGXUOuvjP8gIoeO8yC7wCEEyrWjIO1xdL0Hx6J3k7gv8Ya7v0P2unsBvoYwMdrY6HmBWPG3vq9GXxwUDuDJyjr4QntdEjTRa_O-mECex4e_AX5pJNGpvsXQFn2a_aRl-qYPqqZkQ",
-          "width": 1079,
-          "height": 593,
+          "photo_reference": "Ab43m-tvRYjZjUV-KdZf-SFo2Qt5pFV3lGaPvsLG9jfWln11zbuIKJEYs9P-rrwDM8a2NVKm5VaLeMKKIk59s5c1tfWJBi0VclrGw1-9Hy-P-n_0Gw1yEiRzcofdijYBXnU1btiSDQLxAmrnFXD3ThJiByyY1zN-OAIxxntHeOkDARPILMmGdtzqmbwkHLNSU4wptvw0gmvVBoOhlSAIPpiUMuLFswLT9XjZdPu-Fs5hXFyIxx8rmOCU5tuI3dSABZcCG66YGNcFAKhVI1fJhJhDGsdWx6GVF7HT_0ak7FTHwD61zpSxMkr9_wB19u30tOc9s8Fa1iwTSp1x8KsNNLpYUpQTx2AmuDoVFe0HDGOh5enh3KbdlDtdxvoLzOmUQaMa0oIube45m7N_cqqgIiLVFdKYck7g6pYprU1CD4wgp5T3Dg",
+          "width": 1080,
+          "height": 1920,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/100796372638096012268\">Praveen Golecha</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-s40ecCOovXSmAlRfVBsltrdqNr0c8WAZ2Mh58HKOW38BbWOIuGqyCBti9CL9lCFRxiZtf4dVSZxBuW_ZrfmlJ_h6aMhih2E8e8HKFNpfSNH3aZm-9P0P3CSTWkl9KAJZSMUU-bEbQxL2aw8dpEBCK2SrB7OKtkv3v3leqGXUOuvjP8gIoeO8yC7wCEEyrWjIO1xdL0Hx6J3k7gv8Ya7v0P2unsBvoYwMdrY6HmBWPG3vq9GXxwUDuDJyjr4QntdEjTRa_O-mECex4e_AX5pJNGpvsXQFn2a_aRl-qYPqqZkQ&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-tvRYjZjUV-KdZf-SFo2Qt5pFV3lGaPvsLG9jfWln11zbuIKJEYs9P-rrwDM8a2NVKm5VaLeMKKIk59s5c1tfWJBi0VclrGw1-9Hy-P-n_0Gw1yEiRzcofdijYBXnU1btiSDQLxAmrnFXD3ThJiByyY1zN-OAIxxntHeOkDARPILMmGdtzqmbwkHLNSU4wptvw0gmvVBoOhlSAIPpiUMuLFswLT9XjZdPu-Fs5hXFyIxx8rmOCU5tuI3dSABZcCG66YGNcFAKhVI1fJhJhDGsdWx6GVF7HT_0ak7FTHwD61zpSxMkr9_wB19u30tOc9s8Fa1iwTSp1x8KsNNLpYUpQTx2AmuDoVFe0HDGOh5enh3KbdlDtdxvoLzOmUQaMa0oIube45m7N_cqqgIiLVFdKYck7g6pYprU1CD4wgp5T3Dg&key=YOUR_API_KEY"
         },
         {
-          "photo_reference": "Ab43m-sSaCbm6vTLCzrBQ3b9Pvk4BOgKHT0Nz_qZXz2xKab-iAEh5HM7WjLk4bid9wAJqGmHBHMeXy0Uxx1qRc0mQ2xagdcxVnHTDRGqX2oWs-bpzteTyM9u7WOS2Ebk62a3gNS2PqUUnrry6ObITadYsxragfb2YkXrJrb7MXuOb-e2AVNRPlsUPNDqs0YmxpU67my6hzi0uuBXrSSjXZRV62uS4Y--1VvX3Ds0S8cUDvXe3EfBfy6CIwN-u7bUMOeFaTjX9polsYZnZlVbxZnQEG_35Mvrgrqe3qOY7174uA8Icw",
-          "width": 1079,
-          "height": 973,
+          "photo_reference": "Ab43m-ujVJrGsNKnnVKiV3CuuwplaP-KdkeKVS-r8PP-c4OVzmVNrfil2EV-WoJEhxkYOd0dBc-p8I5HluYo-Nt9EKfV8uWF9UI298L2ZemQSAmVvfjJkUT6oJ5t-lL3xVD1BTmbu97kqLQeN0_yzeOhHDUmxbLwvhUO8Uq9o_vVJjgPuzzgwSoBE5E7IcjQFSpJmqrpF6Lh8RnzBgHt8FCmLIkdodoVLKzsC45xIJmjLOi0sOEY9V5itTUJR9ipUjbYZiEZ1JAHtDHVSNsLjg8X_p69Lmv4bHJwtwrheO5kgK-Sfg",
+          "width": 1386,
+          "height": 1386,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sSaCbm6vTLCzrBQ3b9Pvk4BOgKHT0Nz_qZXz2xKab-iAEh5HM7WjLk4bid9wAJqGmHBHMeXy0Uxx1qRc0mQ2xagdcxVnHTDRGqX2oWs-bpzteTyM9u7WOS2Ebk62a3gNS2PqUUnrry6ObITadYsxragfb2YkXrJrb7MXuOb-e2AVNRPlsUPNDqs0YmxpU67my6hzi0uuBXrSSjXZRV62uS4Y--1VvX3Ds0S8cUDvXe3EfBfy6CIwN-u7bUMOeFaTjX9polsYZnZlVbxZnQEG_35Mvrgrqe3qOY7174uA8Icw&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-ujVJrGsNKnnVKiV3CuuwplaP-KdkeKVS-r8PP-c4OVzmVNrfil2EV-WoJEhxkYOd0dBc-p8I5HluYo-Nt9EKfV8uWF9UI298L2ZemQSAmVvfjJkUT6oJ5t-lL3xVD1BTmbu97kqLQeN0_yzeOhHDUmxbLwvhUO8Uq9o_vVJjgPuzzgwSoBE5E7IcjQFSpJmqrpF6Lh8RnzBgHt8FCmLIkdodoVLKzsC45xIJmjLOi0sOEY9V5itTUJR9ipUjbYZiEZ1JAHtDHVSNsLjg8X_p69Lmv4bHJwtwrheO5kgK-Sfg&key=YOUR_API_KEY"
         },
         {
-          "photo_reference": "Ab43m-tKaTGe0of2QiCEdHW0n2Zp9C3jt3eIJRrTBTc8LTzQKdfrqH1SUIskDqp0SALaoY7uvzQjoizsSPVnJyvFVx2dAd_YaqfAW8hNJI8x239qAJOulyCsJRNdxb9w8N41ukEaxND2EjRJ9YxrcZJm4l6yu53ztvhYaOu8Q_9VrfuCCCTyLeIiFAm8o5qRe7u70rvfKFcObjBZaOYjDbJPnDoSaInfnIm0RM2pFk8eJN31oAQSIL3ZJyYhbst9R-QqGwVdwjii8mXZJC6f2eisgT4qcCFnbMq0sl-fkdtjMDBSyQ",
-          "width": 3072,
-          "height": 4096,
+          "photo_reference": "Ab43m-sHlw6P77_XXEZ3EEDTXFtJVYMuDO5d5rdu5HEaMMTVgNcyt6GzkwpGq-d5pD6eHo-sMK5WgVf7JR0yBH-7870xSl70gcWFoChJYFAAEdO3eln6g6HREwwH9ecGte1afT_aE3jDq5oaROuQrXPpF6ktsRjwW7G5diHu7671YGgDEzdowi_-wFrPdIGFLukNTEcAM3WQ4DErKsb0hnmCNVqd3pDxnp3PxtRXORmSrNZMaqjBy6k9L-0iVJ4pxJEllDQlqr6QN1-smMv3EgINVUgVx7TszCP4kVoSWTsfQV-LSg",
+          "width": 2540,
+          "height": 2868,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-tKaTGe0of2QiCEdHW0n2Zp9C3jt3eIJRrTBTc8LTzQKdfrqH1SUIskDqp0SALaoY7uvzQjoizsSPVnJyvFVx2dAd_YaqfAW8hNJI8x239qAJOulyCsJRNdxb9w8N41ukEaxND2EjRJ9YxrcZJm4l6yu53ztvhYaOu8Q_9VrfuCCCTyLeIiFAm8o5qRe7u70rvfKFcObjBZaOYjDbJPnDoSaInfnIm0RM2pFk8eJN31oAQSIL3ZJyYhbst9R-QqGwVdwjii8mXZJC6f2eisgT4qcCFnbMq0sl-fkdtjMDBSyQ&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sHlw6P77_XXEZ3EEDTXFtJVYMuDO5d5rdu5HEaMMTVgNcyt6GzkwpGq-d5pD6eHo-sMK5WgVf7JR0yBH-7870xSl70gcWFoChJYFAAEdO3eln6g6HREwwH9ecGte1afT_aE3jDq5oaROuQrXPpF6ktsRjwW7G5diHu7671YGgDEzdowi_-wFrPdIGFLukNTEcAM3WQ4DErKsb0hnmCNVqd3pDxnp3PxtRXORmSrNZMaqjBy6k9L-0iVJ4pxJEllDQlqr6QN1-smMv3EgINVUgVx7TszCP4kVoSWTsfQV-LSg&key=YOUR_API_KEY"
         },
         {
-          "photo_reference": "Ab43m-v4kHwMRmnPptC52i0rDlbHb50PiNtOEFVZhGFcP49KyNwQS9nPXEgLEQRBs4Psl0QkuALiO1yhaUhF0RZNozLTqMXqHmIiW9BgdCWO6MQMRop3a2awtz2o-1id7dSX_jMTlntlM1m_9zg74NXO09NSa5ijIIHCkBuL146qMcOsy5b0ZUetSoz4M9okGyAXkUSY-L4K_QxD9UL97jpv2NJLx7LC5kE8TXyJrk_hfvcM6MZ7zQirG3gSsSMl20MzRDv2dUkEYnv54FIVzGxoAZmh8fngti4nhLaIuPHIE8Mx-A",
-          "width": 856,
-          "height": 1388,
+          "photo_reference": "Ab43m-viqk8KHoApK0OkPo513Eoh_TGKDZb4eelcgPfuCYAToAJb-O2YQ12Sa_h6KDkvyRRum2h3ybK9dIEdu-y4VsSIW9wn9uWhQjInjp1TA2wMaDRZzeRyEEL_GMNe1qmcv1pvclNQzG7jZRQiQE2WThi5sddoNUTQRndO8erAmJB7efPlaz_0uRaonEvZLoDCB7lbGbZJJHvcVEn8GC0OhnKshIPS0ApXL7V3e9HcHix8RbhP7K6oEy3SQNm2Ptdv_lg4gNRCsqJt9Fevc2LFa1nrQflscFykbvsfrj_Mid75ww",
+          "width": 3024,
+          "height": 4032,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-v4kHwMRmnPptC52i0rDlbHb50PiNtOEFVZhGFcP49KyNwQS9nPXEgLEQRBs4Psl0QkuALiO1yhaUhF0RZNozLTqMXqHmIiW9BgdCWO6MQMRop3a2awtz2o-1id7dSX_jMTlntlM1m_9zg74NXO09NSa5ijIIHCkBuL146qMcOsy5b0ZUetSoz4M9okGyAXkUSY-L4K_QxD9UL97jpv2NJLx7LC5kE8TXyJrk_hfvcM6MZ7zQirG3gSsSMl20MzRDv2dUkEYnv54FIVzGxoAZmh8fngti4nhLaIuPHIE8Mx-A&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-viqk8KHoApK0OkPo513Eoh_TGKDZb4eelcgPfuCYAToAJb-O2YQ12Sa_h6KDkvyRRum2h3ybK9dIEdu-y4VsSIW9wn9uWhQjInjp1TA2wMaDRZzeRyEEL_GMNe1qmcv1pvclNQzG7jZRQiQE2WThi5sddoNUTQRndO8erAmJB7efPlaz_0uRaonEvZLoDCB7lbGbZJJHvcVEn8GC0OhnKshIPS0ApXL7V3e9HcHix8RbhP7K6oEy3SQNm2Ptdv_lg4gNRCsqJt9Fevc2LFa1nrQflscFykbvsfrj_Mid75ww&key=YOUR_API_KEY"
         },
         {
-          "photo_reference": "Ab43m-s9H5cc89KhEUGRHr17dclmN7-6s2X5zt_T_Ioy8WdvFGgHw1oIU-tECdKPoNFu1rNRNpXS4yZyUDXM1Q-5ZGRfVKvhHBWAq5NUuX28l6gYJJFnKUHwLuglikrHP8vBbp3bLJgQdPGHcDNi1U4QrBG1wGsq1GWt2X-z3ueQ9FrMDzfjAptmmIIiqdmonwHEQETe3Z-_QA9u5zwRsbxKoPaUF6JMBC-RI8Dh1s_KRHDKZkUxQUZG5Yna6kKiMZGro0jQer7Yuumcny9d56U8I3tmbf3tgESYZlM5AkjX4AypA",
-          "width": 1079,
-          "height": 1303,
+          "photo_reference": "Ab43m-uLFZrWPmFbR7zE9QtLrweNxCVY2F7qpRV4tUjtTbFX_RBRdpiAJ3M7F1BoZ2MLUKFt0BFN-RGnDVAN3OJogXEWnvXZPDVLHFq6ObmnbO2CHBuLE27a1Rp6sUMC-v1lpU_cJC8v21qS4Gh1KmXMBZNwkmfi3Qt7hfMwg-lovdlUbfGSKC0hA0i4PS0TQ4YqDc_fIBSIKp5ucPQQq9Ud13Oh4DQ4vNRlrXjlNz_omjUsE6Hv82tChAV4P5f6f_fELuPk3sBlp9l0uR6WuaS-8muNtVF8Ia_uJif4AcSiiMp-xQ",
+          "width": 413,
+          "height": 531,
           "html_attributions": [
-            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
           ],
-          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-s9H5cc89KhEUGRHr17dclmN7-6s2X5zt_T_Ioy8WdvFGgHw1oIU-tECdKPoNFu1rNRNpXS4yZyUDXM1Q-5ZGRfVKvhHBWAq5NUuX28l6gYJJFnKUHwLuglikrHP8vBbp3bLJgQdPGHcDNi1U4QrBG1wGsq1GWt2X-z3ueQ9FrMDzfjAptmmIIiqdmonwHEQETe3Z-_QA9u5zwRsbxKoPaUF6JMBC-RI8Dh1s_KRHDKZkUxQUZG5Yna6kKiMZGro0jQer7Yuumcny9d56U8I3tmbf3tgESYZlM5AkjX4AypA&key=YOUR_API_KEY"
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-uLFZrWPmFbR7zE9QtLrweNxCVY2F7qpRV4tUjtTbFX_RBRdpiAJ3M7F1BoZ2MLUKFt0BFN-RGnDVAN3OJogXEWnvXZPDVLHFq6ObmnbO2CHBuLE27a1Rp6sUMC-v1lpU_cJC8v21qS4Gh1KmXMBZNwkmfi3Qt7hfMwg-lovdlUbfGSKC0hA0i4PS0TQ4YqDc_fIBSIKp5ucPQQq9Ud13Oh4DQ4vNRlrXjlNz_omjUsE6Hv82tChAV4P5f6f_fELuPk3sBlp9l0uR6WuaS-8muNtVF8Ia_uJif4AcSiiMp-xQ&key=YOUR_API_KEY"
         }
       ],
-      "photo_reference": "Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg",
-      "main_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg&key=YOUR_API_KEY",
+      "photo_reference": "Ab43m-s3o3K6vBR1hrxtDr52Y9CmXff3etymsZ5B5dyw7JHy2n2Oe4YEAhEl3NM4_CYry8lBNA6CKdxiANnOHD-3n0m5_V9TJd4f0LEX93rwsrMy6xtzFuyNkhhFj1W6EuXZGOHvPgr1A92yj2vJRlHFS1rigtruIKcSvXmnDpsUca0H-r4kAGm7k6PayGViUnxAh6IvjQ92uAzdVwbKObCuLoGC9jY5jWlXUTpUUcL5fL5Km9dcZROwhDjP32FFZ_DUvI67XypTqaWW1EIa-CXsZFaUMlvgCvGI0-CO5Gmj0dly1w",
+      "main_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-s3o3K6vBR1hrxtDr52Y9CmXff3etymsZ5B5dyw7JHy2n2Oe4YEAhEl3NM4_CYry8lBNA6CKdxiANnOHD-3n0m5_V9TJd4f0LEX93rwsrMy6xtzFuyNkhhFj1W6EuXZGOHvPgr1A92yj2vJRlHFS1rigtruIKcSvXmnDpsUca0H-r4kAGm7k6PayGViUnxAh6IvjQ92uAzdVwbKObCuLoGC9jY5jWlXUTpUUcL5fL5Km9dcZROwhDjP32FFZ_DUvI67XypTqaWW1EIa-CXsZFaUMlvgCvGI0-CO5Gmj0dly1w&key=YOUR_API_KEY",
       "raw_google_result": {
         "business_status": "OPERATIONAL",
-        "formatted_address": "A-828, Money Plant Highstreet, Nr BSNL Office, Jagatpur Road, Sarkhej - Gandhinagar Hwy, Jagatpur, Ahmedabad, Gujarat 382470, India",
-        "formatted_phone_number": "096806 13890",
+        "formatted_address": "258, New Cloth Market, Sarangpur, Sherkotda, Ahmedabad, Gujarat 380002, India",
+        "formatted_phone_number": "079 2216 3011",
         "geometry": {
           "location": {
-            "lat": 23.1143819,
-            "lng": 72.53763579999999
+            "lat": 23.0185489,
+            "lng": 72.5995374
           },
           "viewport": {
             "northeast": {
-              "lat": 23.1158876802915,
-              "lng": 72.53900298029151
+              "lat": 23.0199220302915,
+              "lng": 72.6009107302915
             },
             "southwest": {
-              "lat": 23.1131897197085,
-              "lng": 72.5363050197085
+              "lat": 23.0172240697085,
+              "lng": 72.5982127697085
             }
           }
         },
-        "international_phone_number": "+91 96806 13890",
-        "name": "K & C India Exports",
+        "international_phone_number": "+91 79 2216 3011",
+        "name": "Shradha Export Mill",
         "opening_hours": {
-          "open_now": false,
+          "open_now": true,
           "periods": [
             {
               "close": {
@@ -162,7 +200,7 @@
               },
               "open": {
                 "day": 1,
-                "time": "1000"
+                "time": "1100"
               }
             },
             {
@@ -172,7 +210,7 @@
               },
               "open": {
                 "day": 2,
-                "time": "1000"
+                "time": "1100"
               }
             },
             {
@@ -182,7 +220,7 @@
               },
               "open": {
                 "day": 3,
-                "time": "1000"
+                "time": "1100"
               }
             },
             {
@@ -192,7 +230,7 @@
               },
               "open": {
                 "day": 4,
-                "time": "1000"
+                "time": "1100"
               }
             },
             {
@@ -202,7 +240,7 @@
               },
               "open": {
                 "day": 5,
-                "time": "1000"
+                "time": "1100"
               }
             },
             {
@@ -212,140 +250,183 @@
               },
               "open": {
                 "day": 6,
-                "time": "1000"
+                "time": "1100"
               }
             }
           ],
           "weekday_text": [
-            "Monday: 10:00 AM – 7:00 PM",
-            "Tuesday: 10:00 AM – 7:00 PM",
-            "Wednesday: 10:00 AM – 7:00 PM",
-            "Thursday: 10:00 AM – 7:00 PM",
-            "Friday: 10:00 AM – 7:00 PM",
-            "Saturday: 10:00 AM – 7:00 PM",
+            "Monday: 11:00 AM – 7:00 PM",
+            "Tuesday: 11:00 AM – 7:00 PM",
+            "Wednesday: 11:00 AM – 7:00 PM",
+            "Thursday: 11:00 AM – 7:00 PM",
+            "Friday: 11:00 AM – 7:00 PM",
+            "Saturday: 11:00 AM – 7:00 PM",
             "Sunday: Closed"
           ]
         },
         "photos": [
           {
-            "height": 600,
+            "height": 254,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
             ],
-            "photo_reference": "Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg",
-            "width": 800
+            "photo_reference": "Ab43m-s3o3K6vBR1hrxtDr52Y9CmXff3etymsZ5B5dyw7JHy2n2Oe4YEAhEl3NM4_CYry8lBNA6CKdxiANnOHD-3n0m5_V9TJd4f0LEX93rwsrMy6xtzFuyNkhhFj1W6EuXZGOHvPgr1A92yj2vJRlHFS1rigtruIKcSvXmnDpsUca0H-r4kAGm7k6PayGViUnxAh6IvjQ92uAzdVwbKObCuLoGC9jY5jWlXUTpUUcL5fL5Km9dcZROwhDjP32FFZ_DUvI67XypTqaWW1EIa-CXsZFaUMlvgCvGI0-CO5Gmj0dly1w",
+            "width": 451
           },
           {
-            "height": 600,
+            "height": 3024,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
             ],
-            "photo_reference": "Ab43m-scRjlqK7N2MYvT7Q8cnvHNPGg5NVtYL4pYRxVA_DbBT3kz6s7SHzjM5bGXtYvtBc3VxObATaoFoZBlkGN2bM79gN3UWzPK2QpUvNo7mJDUdudMHg2DPlPyq0nhAoD82wYarcVujcVisHaB-UiMaK3RHhKhSCvxiDRgUxF0yqZMj05tBB1wi9XJyDjCIuywH6rY04i6MpXVqpsQDmIzwGlZRcQVujyMiB3PAnERJJGd4a1ck7qa9wv_4zOf6eVstTvZ_SnhgGSAe5qqTb5NP8H182Cg_Rh_2Zxo3kotauW8fg",
-            "width": 800
+            "photo_reference": "Ab43m-uHX-L_bz9E4sBUwQb8A8q6Q-lprt3kzVUrwK1bFWBaCPyj7Xg6a6QHOYQkRB_LjYTMHdKWd7Lz9q9n1mgz4g8q32Y1CDjRd-KkELvJHHqvEBhUp6xU_UbfrBz7C1B8Wp-bNXXpBDE1e68OH9ACP3UciLB2BCEOQhQx524FCWxifViHVbbzzqtLU3R7ksuThrljTTO4TfeF1GXCy_qxXfpgJSj2SiJT_-9eWynSu5HaOIzEZBSnAy18gglOsBxKds3xLz-0HHn589_78Ag-NYnHQRKMgTJi8gQPfUSF51lC-A",
+            "width": 4032
           },
           {
-            "height": 593,
+            "height": 1920,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/100796372638096012268\">Praveen Golecha</a>"
             ],
-            "photo_reference": "Ab43m-s40ecCOovXSmAlRfVBsltrdqNr0c8WAZ2Mh58HKOW38BbWOIuGqyCBti9CL9lCFRxiZtf4dVSZxBuW_ZrfmlJ_h6aMhih2E8e8HKFNpfSNH3aZm-9P0P3CSTWkl9KAJZSMUU-bEbQxL2aw8dpEBCK2SrB7OKtkv3v3leqGXUOuvjP8gIoeO8yC7wCEEyrWjIO1xdL0Hx6J3k7gv8Ya7v0P2unsBvoYwMdrY6HmBWPG3vq9GXxwUDuDJyjr4QntdEjTRa_O-mECex4e_AX5pJNGpvsXQFn2a_aRl-qYPqqZkQ",
-            "width": 1079
+            "photo_reference": "Ab43m-tvRYjZjUV-KdZf-SFo2Qt5pFV3lGaPvsLG9jfWln11zbuIKJEYs9P-rrwDM8a2NVKm5VaLeMKKIk59s5c1tfWJBi0VclrGw1-9Hy-P-n_0Gw1yEiRzcofdijYBXnU1btiSDQLxAmrnFXD3ThJiByyY1zN-OAIxxntHeOkDARPILMmGdtzqmbwkHLNSU4wptvw0gmvVBoOhlSAIPpiUMuLFswLT9XjZdPu-Fs5hXFyIxx8rmOCU5tuI3dSABZcCG66YGNcFAKhVI1fJhJhDGsdWx6GVF7HT_0ak7FTHwD61zpSxMkr9_wB19u30tOc9s8Fa1iwTSp1x8KsNNLpYUpQTx2AmuDoVFe0HDGOh5enh3KbdlDtdxvoLzOmUQaMa0oIube45m7N_cqqgIiLVFdKYck7g6pYprU1CD4wgp5T3Dg",
+            "width": 1080
           },
           {
-            "height": 973,
+            "height": 1386,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
             ],
-            "photo_reference": "Ab43m-sSaCbm6vTLCzrBQ3b9Pvk4BOgKHT0Nz_qZXz2xKab-iAEh5HM7WjLk4bid9wAJqGmHBHMeXy0Uxx1qRc0mQ2xagdcxVnHTDRGqX2oWs-bpzteTyM9u7WOS2Ebk62a3gNS2PqUUnrry6ObITadYsxragfb2YkXrJrb7MXuOb-e2AVNRPlsUPNDqs0YmxpU67my6hzi0uuBXrSSjXZRV62uS4Y--1VvX3Ds0S8cUDvXe3EfBfy6CIwN-u7bUMOeFaTjX9polsYZnZlVbxZnQEG_35Mvrgrqe3qOY7174uA8Icw",
-            "width": 1079
+            "photo_reference": "Ab43m-ujVJrGsNKnnVKiV3CuuwplaP-KdkeKVS-r8PP-c4OVzmVNrfil2EV-WoJEhxkYOd0dBc-p8I5HluYo-Nt9EKfV8uWF9UI298L2ZemQSAmVvfjJkUT6oJ5t-lL3xVD1BTmbu97kqLQeN0_yzeOhHDUmxbLwvhUO8Uq9o_vVJjgPuzzgwSoBE5E7IcjQFSpJmqrpF6Lh8RnzBgHt8FCmLIkdodoVLKzsC45xIJmjLOi0sOEY9V5itTUJR9ipUjbYZiEZ1JAHtDHVSNsLjg8X_p69Lmv4bHJwtwrheO5kgK-Sfg",
+            "width": 1386
           },
           {
-            "height": 4096,
+            "height": 2868,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
             ],
-            "photo_reference": "Ab43m-tKaTGe0of2QiCEdHW0n2Zp9C3jt3eIJRrTBTc8LTzQKdfrqH1SUIskDqp0SALaoY7uvzQjoizsSPVnJyvFVx2dAd_YaqfAW8hNJI8x239qAJOulyCsJRNdxb9w8N41ukEaxND2EjRJ9YxrcZJm4l6yu53ztvhYaOu8Q_9VrfuCCCTyLeIiFAm8o5qRe7u70rvfKFcObjBZaOYjDbJPnDoSaInfnIm0RM2pFk8eJN31oAQSIL3ZJyYhbst9R-QqGwVdwjii8mXZJC6f2eisgT4qcCFnbMq0sl-fkdtjMDBSyQ",
-            "width": 3072
+            "photo_reference": "Ab43m-sHlw6P77_XXEZ3EEDTXFtJVYMuDO5d5rdu5HEaMMTVgNcyt6GzkwpGq-d5pD6eHo-sMK5WgVf7JR0yBH-7870xSl70gcWFoChJYFAAEdO3eln6g6HREwwH9ecGte1afT_aE3jDq5oaROuQrXPpF6ktsRjwW7G5diHu7671YGgDEzdowi_-wFrPdIGFLukNTEcAM3WQ4DErKsb0hnmCNVqd3pDxnp3PxtRXORmSrNZMaqjBy6k9L-0iVJ4pxJEllDQlqr6QN1-smMv3EgINVUgVx7TszCP4kVoSWTsfQV-LSg",
+            "width": 2540
           },
           {
-            "height": 1388,
+            "height": 4032,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
             ],
-            "photo_reference": "Ab43m-v4kHwMRmnPptC52i0rDlbHb50PiNtOEFVZhGFcP49KyNwQS9nPXEgLEQRBs4Psl0QkuALiO1yhaUhF0RZNozLTqMXqHmIiW9BgdCWO6MQMRop3a2awtz2o-1id7dSX_jMTlntlM1m_9zg74NXO09NSa5ijIIHCkBuL146qMcOsy5b0ZUetSoz4M9okGyAXkUSY-L4K_QxD9UL97jpv2NJLx7LC5kE8TXyJrk_hfvcM6MZ7zQirG3gSsSMl20MzRDv2dUkEYnv54FIVzGxoAZmh8fngti4nhLaIuPHIE8Mx-A",
-            "width": 856
+            "photo_reference": "Ab43m-viqk8KHoApK0OkPo513Eoh_TGKDZb4eelcgPfuCYAToAJb-O2YQ12Sa_h6KDkvyRRum2h3ybK9dIEdu-y4VsSIW9wn9uWhQjInjp1TA2wMaDRZzeRyEEL_GMNe1qmcv1pvclNQzG7jZRQiQE2WThi5sddoNUTQRndO8erAmJB7efPlaz_0uRaonEvZLoDCB7lbGbZJJHvcVEn8GC0OhnKshIPS0ApXL7V3e9HcHix8RbhP7K6oEy3SQNm2Ptdv_lg4gNRCsqJt9Fevc2LFa1nrQflscFykbvsfrj_Mid75ww",
+            "width": 3024
           },
           {
-            "height": 1303,
+            "height": 531,
             "html_attributions": [
-              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+              "<a href=\"https://maps.google.com/maps/contrib/114780527995597970385\">Shradha Export Mill</a>"
             ],
-            "photo_reference": "Ab43m-s9H5cc89KhEUGRHr17dclmN7-6s2X5zt_T_Ioy8WdvFGgHw1oIU-tECdKPoNFu1rNRNpXS4yZyUDXM1Q-5ZGRfVKvhHBWAq5NUuX28l6gYJJFnKUHwLuglikrHP8vBbp3bLJgQdPGHcDNi1U4QrBG1wGsq1GWt2X-z3ueQ9FrMDzfjAptmmIIiqdmonwHEQETe3Z-_QA9u5zwRsbxKoPaUF6JMBC-RI8Dh1s_KRHDKZkUxQUZG5Yna6kKiMZGro0jQer7Yuumcny9d56U8I3tmbf3tgESYZlM5AkjX4AypA",
-            "width": 1079
+            "photo_reference": "Ab43m-uLFZrWPmFbR7zE9QtLrweNxCVY2F7qpRV4tUjtTbFX_RBRdpiAJ3M7F1BoZ2MLUKFt0BFN-RGnDVAN3OJogXEWnvXZPDVLHFq6ObmnbO2CHBuLE27a1Rp6sUMC-v1lpU_cJC8v21qS4Gh1KmXMBZNwkmfi3Qt7hfMwg-lovdlUbfGSKC0hA0i4PS0TQ4YqDc_fIBSIKp5ucPQQq9Ud13Oh4DQ4vNRlrXjlNz_omjUsE6Hv82tChAV4P5f6f_fELuPk3sBlp9l0uR6WuaS-8muNtVF8Ia_uJif4AcSiiMp-xQ",
+            "width": 413
           }
         ],
-        "rating": 3,
+        "rating": 4.9,
         "reviews": [
           {
-            "author_name": "Chahak kalal Kalal",
-            "author_url": "https://www.google.com/maps/contrib/111879899164196882779/reviews",
+            "author_name": "Ankit Agarwal",
+            "author_url": "https://www.google.com/maps/contrib/103610574147114003790/reviews",
             "language": "en",
             "original_language": "en",
-            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLNcao_aOIbFKiBroJ_sSlJHY1IuUBSh_moZFWMAmmAcBWtFA=s128-c0x00000000-cc-rp-mo",
-            "rating": 1,
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX4n_wAdvJiPQ8GnRwllD-lhx9mHCWYWPtk12pS5z7zdPUsVcL3=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
             "relative_time_description": "5 months ago",
-            "text": "Bad experience",
-            "time": 1764989222,
+            "text": "Excellent quality bedsheet fabrics! The material feels premium, soft, and durable. Their designs and colors are vibrant, and delivery was quick. Highly recommended for anyone looking for reliable fabric manufacturers.",
+            "time": 1765439111,
             "translated": false
           },
           {
-            "author_name": "sanjay patel",
-            "author_url": "https://www.google.com/maps/contrib/109717423587442299086/reviews",
+            "author_name": "Rishav Ec",
+            "author_url": "https://www.google.com/maps/contrib/111475900339142249736/reviews",
             "language": "en",
             "original_language": "en",
-            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI5Dqv6Z1jxKI0YbvrU48m_sWXZHY60iFQ_yn0Zr052z06nmw=s128-c0x00000000-cc-rp-mo-ba2",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLCmKfikp1im8DnR6x9BvxQ8O_o_PcPkmBvaFE4kqqa8RCYVw=s128-c0x00000000-cc-rp-mo",
             "rating": 5,
-            "relative_time_description": "2 years ago",
-            "text": "Bast quality  and excellent service",
-            "time": 1698059315,
+            "relative_time_description": "5 months ago",
+            "text": "Biggest and best collection of all types of Bedsheet fabric in Ahmedabad. Have been associated with this business for more than 30 years 🙂",
+            "time": 1765387720,
+            "translated": false
+          },
+          {
+            "author_name": "IRFAN KHAN",
+            "author_url": "https://www.google.com/maps/contrib/114647295834305166965/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUsOMYRhHZ0xroClKsYxGDW6z7onIDID-mkXxb0O1H4GG0qkCk=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "5 months ago",
+            "text": "Ayush from sharda export are very helpful and highly versed in fabric quality.. keep it up good work team shradha export ♥️♥️",
+            "time": 1765390035,
+            "translated": false
+          },
+          {
+            "author_name": "Pankaj Chaudhary Chaudhary",
+            "author_url": "https://www.google.com/maps/contrib/105054020566046309798/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJBZnEB7xolyBU57gTyiu4nLuMec6K2-ZPCmv0kJjatUT7sUg=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "5 months ago",
+            "text": "Good experience to work with Sharda Export Mill.Commited to delivery and quality.All types of designs available same as well prices.👍",
+            "time": 1765389659,
+            "translated": false
+          },
+          {
+            "author_name": "Dhaval bagadia",
+            "author_url": "https://www.google.com/maps/contrib/101300747992551952630/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVOPsjFRT4Jw6gpHVCousoTMW7zcf2SVaI7Syosows5RBXWf6E=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "relative_time_description": "5 months ago",
+            "text": "Best quality , Best rate, and so much collection of design in sheetings....\nAnd ready sets...",
+            "time": 1765435395,
             "translated": false
           }
         ],
         "types": [
           "establishment",
-          "point_of_interest"
+          "home_goods_store",
+          "point_of_interest",
+          "store"
         ],
-        "url": "https://maps.google.com/?cid=10263438489876499376",
-        "user_ratings_total": 2
+        "url": "https://maps.google.com/?cid=9296736712775922563",
+        "user_ratings_total": 43,
+        "website": "http://www.shradhaexpo.com/"
       },
       "website_content": {
         "homepage": {
           "hero_section": {
-            "title": "K & C India Exports: Your Gateway to Premium Indian Products",
-            "subtitle": "Connecting the rich heritage of India with global markets through unparalleled export solutions.",
-            "button_text": "Discover Our Offerings"
+            "title": "Shradha Export Mill: Your Premier Source for Quality Bedsheet Fabrics",
+            "subtitle": "Experience the finest in bedsheet textiles, blending premium quality with unparalleled design variety for over 30 years.",
+            "button_text": "Explore Our Collection"
           },
           "introduction": {
-            "heading": "Welcome to K & C India Exports",
-            "paragraph_1": "K & C India Exports stands as a bridge between the vibrant markets of India and discerning clients worldwide. We are dedicated to facilitating seamless and efficient export of high-quality Indian products, ensuring every transaction reflects our commitment to excellence and reliability.",
-            "paragraph_2": "With a deep understanding of international trade and a robust network, we pride ourselves on delivering exceptional service. Our mission is to empower businesses globally by providing access to the finest goods India has to offer, all while maintaining stringent quality control and fostering strong, lasting partnerships."
+            "heading": "Crafting Comfort and Style for Decades",
+            "paragraph_1": "At Shradha Export Mill, we are proud to be Ahmedabad's leading manufacturer and supplier of exceptional bedsheet fabrics. With a rich heritage spanning over 30 years, we have consistently delivered premium quality, durability, and a breathtaking array of designs to our esteemed clients.",
+            "paragraph_2": "Our dedication to crafting fabrics that transform spaces and elevate comfort is unwavering. We offer an extensive collection of bedsheet materials and ready sets, ensuring every customer finds the perfect blend of style, quality, and value."
           }
         },
         "products_services_page": {
-          "heading": "Our Export Solutions",
-          "introduction": "At K & C India Exports, we offer a comprehensive suite of services designed to streamline your international procurement process. From sourcing to delivery, we handle every aspect with precision and professionalism, ensuring your goods arrive on time and to your exact specifications.",
+          "heading": "Discover Our Exquisite Fabric Collections",
+          "introduction": "Shradha Export Mill specializes in providing a comprehensive range of bedsheet fabrics and ready sets that meet the diverse needs of retailers, wholesalers, and designers. Our commitment to innovation, quality, and variety makes us the preferred choice in the market.",
           "service_offerings": [
             {
-              "title": "Global Sourcing & Export Facilitation",
-              "description": "Leverage our extensive network across India to source a diverse range of high-quality products. We manage the entire export process, from supplier identification and negotiation to documentation and customs clearance, making international trade effortless for you."
+              "title": "Premium Bed Sheet Fabrics",
+              "description": "Explore our vast selection of bedsheet fabrics, renowned for their premium feel, softness, and long-lasting durability. From luxurious cottons to blended materials, we offer options that promise comfort and elegance."
             },
             {
-              "title": "Rigorous Quality Assurance",
-              "description": "Our commitment to quality is unwavering. We implement strict quality control measures at every stage, ensuring that all products meet international standards and your specific requirements before they are shipped. Your satisfaction is our top priority."
+              "title": "Vibrant Designs & Colors",
+              "description": "Dive into a world of vibrant designs, intricate patterns, and a spectrum of colors. Our collection is curated to include the latest trends and timeless classics, ensuring a perfect match for every aesthetic."
             },
             {
-              "title": "Efficient Logistics & Supply Chain",
-              "description": "Experience hassle-free logistics with our expert supply chain management. We optimize shipping routes, coordinate with reliable carriers, and track your consignment diligently to ensure timely and secure delivery to your destination, anywhere in the world."
+              "title": "Ready Bedsheet Sets",
+              "description": "For convenience and style, choose from our expertly crafted ready bedsheet sets. Designed with precision and attention to detail, these sets offer an immediate solution for beautiful bedding."
+            },
+            {
+              "title": "Custom Manufacturing & Bulk Orders",
+              "description": "Leverage our extensive manufacturing capabilities for custom orders and large-scale requirements. We are equipped to handle bulk production with a commitment to timely delivery and consistent quality."
             }
           ]
         },
@@ -353,41 +434,57 @@
           "heading": "What Our Clients Say",
           "testimonials": [
             {
-              "author_name": "Chahak kalal Kalal",
-              "review": "Bad experience",
-              "rating": 1
+              "author_name": "Ankit Agarwal",
+              "review": "Excellent quality bedsheet fabrics! The material feels premium, soft, and durable. Their designs and colors are vibrant, and delivery was quick. Highly recommended for anyone looking for reliable fabric manufacturers.",
+              "rating": 5
             },
             {
-              "author_name": "sanjay patel",
-              "review": "Bast quality and excellent service",
+              "author_name": "Rishav Ec",
+              "review": "Biggest and best collection of all types of Bedsheet fabric in Ahmedabad. Have been associated with this business for more than 30 years 🙂",
+              "rating": 5
+            },
+            {
+              "author_name": "IRFAN KHAN",
+              "review": "Ayush from sharda export are very helpful and highly versed in fabric quality.. keep it up good work team shradha export ♥️♥️",
+              "rating": 5
+            },
+            {
+              "author_name": "Pankaj Chaudhary Chaudhary",
+              "review": "Good experience to work with Sharda Export Mill.Commited to delivery and quality.All types of designs available same as well prices.👍",
+              "rating": 5
+            },
+            {
+              "author_name": "Dhaval bagadia",
+              "review": "Best quality , Best rate, and so much collection of design in sheetings....\nAnd ready sets...",
               "rating": 5
             }
           ]
         },
         "contact_section": {
-          "heading": "Connect With Us",
-          "email": "info@kandcindiaexports.com",
-          "phone": "+91 96806 13890",
-          "address": "A-828, Money Plant Highstreet, Nr BSNL Office, Jagatpur Road, Sarkhej - Gandhinagar Hwy, Jagatpur, Ahmedabad, Gujarat 382470, India"
+          "heading": "Get in Touch with Shradha Export Mill",
+          "email": "info@shradhaexpo.com",
+          "phone": "+91 79 2216 3011",
+          "address": "258, New Cloth Market, Sarangpur, Sherkotda, Ahmedabad, Gujarat 380002, India"
         },
         "seo": {
-          "meta_title": "K & C India Exports | Premier Indian Product Exporters",
-          "meta_description": "K & C India Exports facilitates global trade of high-quality Indian products. Specializing in sourcing, quality assurance, and efficient logistics for international markets from Ahmedabad, Gujarat.",
+          "meta_title": "Shradha Export Mill | Premium Bedsheet Fabrics & Ready Sets in Ahmedabad",
+          "meta_description": "Discover Shradha Export Mill, Ahmedabad's leading supplier of high-quality bedsheet fabrics, vibrant designs, and durable ready sets. With 30+ years of expertise, we offer the best in textile solutions.",
           "keywords": [
-            "India exports",
-            "Indian products export",
-            "global trade India",
-            "sourcing India",
-            "export company Ahmedabad",
-            "Gujarat exporters",
-            "international trade solutions",
-            "quality Indian goods"
+            "Shradha Export Mill",
+            "bedsheet fabric manufacturer",
+            "bedsheet supplier Ahmedabad",
+            "textile mill Gujarat",
+            "premium bedsheets",
+            "bedsheet designs",
+            "ready bedsheet sets",
+            "fabric wholesaler",
+            "home goods Ahmedabad"
           ]
         },
         "theme": {
-          "primary_color": "#005691",
-          "secondary_color": "#FFD700",
-          "font_style": "Open Sans, sans-serif"
+          "primary_color": "#4A235A",
+          "secondary_color": "#F0F8FF",
+          "font_style": "sans-serif"
         }
       }
     }
