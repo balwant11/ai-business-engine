@@ -6,10 +6,10 @@ import TestimonialsSection from "@/sections/TestimonialsSection";
 
 export default function Home() {
 
-  const business = businessData[0];
+  
 
   const website =
-    business.website_content;
+  businessData.website_content;
 
   return (
     <main>
