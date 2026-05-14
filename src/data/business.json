@@ -1,0 +1,394 @@
+[
+    {
+      "name": "K & C India Exports",
+      "address": "",
+      "full_address": "A-828, Money Plant Highstreet, Nr BSNL Office, Jagatpur Road, Sarkhej - Gandhinagar Hwy, Jagatpur, Ahmedabad, Gujarat 382470, India",
+      "phone": "'+91 96806 13890",
+      "local_phone": "096806 13890",
+      "website": "",
+      "zomato": "",
+      "facebook": "",
+      "instagram": "",
+      "place_id": "",
+      "rating": 3,
+      "total_reviews": 2,
+      "business_status": "OPERATIONAL",
+      "google_maps_url": "https://maps.google.com/?cid=10263438489876499376",
+      "price_level": "",
+      "editorial_summary": "",
+      "lat": 23.1143819,
+      "lng": 72.53763579999999,
+      "northeast_lat": 23.1158876802915,
+      "northeast_lng": 72.53900298029151,
+      "southwest_lat": 23.1131897197085,
+      "southwest_lng": 72.5363050197085,
+      "open_now": false,
+      "weekday_hours": [
+        "Monday: 10:00 AM – 7:00 PM",
+        "Tuesday: 10:00 AM – 7:00 PM",
+        "Wednesday: 10:00 AM – 7:00 PM",
+        "Thursday: 10:00 AM – 7:00 PM",
+        "Friday: 10:00 AM – 7:00 PM",
+        "Saturday: 10:00 AM – 7:00 PM",
+        "Sunday: Closed"
+      ],
+      "reviews": [
+        {
+          "author_name": "Chahak kalal Kalal",
+          "author_url": "https://www.google.com/maps/contrib/111879899164196882779/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocLNcao_aOIbFKiBroJ_sSlJHY1IuUBSh_moZFWMAmmAcBWtFA=s128-c0x00000000-cc-rp-mo",
+          "language": "en",
+          "original_language": "en",
+          "rating": 1,
+          "review": "Bad experience",
+          "time_ago": "5 months ago",
+          "timestamp": 1764989222,
+          "translated": false
+        },
+        {
+          "author_name": "sanjay patel",
+          "author_url": "https://www.google.com/maps/contrib/109717423587442299086/reviews",
+          "profile_photo": "https://lh3.googleusercontent.com/a/ACg8ocI5Dqv6Z1jxKI0YbvrU48m_sWXZHY60iFQ_yn0Zr052z06nmw=s128-c0x00000000-cc-rp-mo-ba2",
+          "language": "en",
+          "original_language": "en",
+          "rating": 5,
+          "review": "Bast quality  and excellent service",
+          "time_ago": "2 years ago",
+          "timestamp": 1698059315,
+          "translated": false
+        }
+      ],
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ],
+      "types_string": "establishment, point_of_interest",
+      "photos": [
+        {
+          "photo_reference": "Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg",
+          "width": 800,
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg&key=YOUR_API_KEY"
+        },
+        {
+          "photo_reference": "Ab43m-scRjlqK7N2MYvT7Q8cnvHNPGg5NVtYL4pYRxVA_DbBT3kz6s7SHzjM5bGXtYvtBc3VxObATaoFoZBlkGN2bM79gN3UWzPK2QpUvNo7mJDUdudMHg2DPlPyq0nhAoD82wYarcVujcVisHaB-UiMaK3RHhKhSCvxiDRgUxF0yqZMj05tBB1wi9XJyDjCIuywH6rY04i6MpXVqpsQDmIzwGlZRcQVujyMiB3PAnERJJGd4a1ck7qa9wv_4zOf6eVstTvZ_SnhgGSAe5qqTb5NP8H182Cg_Rh_2Zxo3kotauW8fg",
+          "width": 800,
+          "height": 600,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-scRjlqK7N2MYvT7Q8cnvHNPGg5NVtYL4pYRxVA_DbBT3kz6s7SHzjM5bGXtYvtBc3VxObATaoFoZBlkGN2bM79gN3UWzPK2QpUvNo7mJDUdudMHg2DPlPyq0nhAoD82wYarcVujcVisHaB-UiMaK3RHhKhSCvxiDRgUxF0yqZMj05tBB1wi9XJyDjCIuywH6rY04i6MpXVqpsQDmIzwGlZRcQVujyMiB3PAnERJJGd4a1ck7qa9wv_4zOf6eVstTvZ_SnhgGSAe5qqTb5NP8H182Cg_Rh_2Zxo3kotauW8fg&key=YOUR_API_KEY"
+        },
+        {
+          "photo_reference": "Ab43m-s40ecCOovXSmAlRfVBsltrdqNr0c8WAZ2Mh58HKOW38BbWOIuGqyCBti9CL9lCFRxiZtf4dVSZxBuW_ZrfmlJ_h6aMhih2E8e8HKFNpfSNH3aZm-9P0P3CSTWkl9KAJZSMUU-bEbQxL2aw8dpEBCK2SrB7OKtkv3v3leqGXUOuvjP8gIoeO8yC7wCEEyrWjIO1xdL0Hx6J3k7gv8Ya7v0P2unsBvoYwMdrY6HmBWPG3vq9GXxwUDuDJyjr4QntdEjTRa_O-mECex4e_AX5pJNGpvsXQFn2a_aRl-qYPqqZkQ",
+          "width": 1079,
+          "height": 593,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-s40ecCOovXSmAlRfVBsltrdqNr0c8WAZ2Mh58HKOW38BbWOIuGqyCBti9CL9lCFRxiZtf4dVSZxBuW_ZrfmlJ_h6aMhih2E8e8HKFNpfSNH3aZm-9P0P3CSTWkl9KAJZSMUU-bEbQxL2aw8dpEBCK2SrB7OKtkv3v3leqGXUOuvjP8gIoeO8yC7wCEEyrWjIO1xdL0Hx6J3k7gv8Ya7v0P2unsBvoYwMdrY6HmBWPG3vq9GXxwUDuDJyjr4QntdEjTRa_O-mECex4e_AX5pJNGpvsXQFn2a_aRl-qYPqqZkQ&key=YOUR_API_KEY"
+        },
+        {
+          "photo_reference": "Ab43m-sSaCbm6vTLCzrBQ3b9Pvk4BOgKHT0Nz_qZXz2xKab-iAEh5HM7WjLk4bid9wAJqGmHBHMeXy0Uxx1qRc0mQ2xagdcxVnHTDRGqX2oWs-bpzteTyM9u7WOS2Ebk62a3gNS2PqUUnrry6ObITadYsxragfb2YkXrJrb7MXuOb-e2AVNRPlsUPNDqs0YmxpU67my6hzi0uuBXrSSjXZRV62uS4Y--1VvX3Ds0S8cUDvXe3EfBfy6CIwN-u7bUMOeFaTjX9polsYZnZlVbxZnQEG_35Mvrgrqe3qOY7174uA8Icw",
+          "width": 1079,
+          "height": 973,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sSaCbm6vTLCzrBQ3b9Pvk4BOgKHT0Nz_qZXz2xKab-iAEh5HM7WjLk4bid9wAJqGmHBHMeXy0Uxx1qRc0mQ2xagdcxVnHTDRGqX2oWs-bpzteTyM9u7WOS2Ebk62a3gNS2PqUUnrry6ObITadYsxragfb2YkXrJrb7MXuOb-e2AVNRPlsUPNDqs0YmxpU67my6hzi0uuBXrSSjXZRV62uS4Y--1VvX3Ds0S8cUDvXe3EfBfy6CIwN-u7bUMOeFaTjX9polsYZnZlVbxZnQEG_35Mvrgrqe3qOY7174uA8Icw&key=YOUR_API_KEY"
+        },
+        {
+          "photo_reference": "Ab43m-tKaTGe0of2QiCEdHW0n2Zp9C3jt3eIJRrTBTc8LTzQKdfrqH1SUIskDqp0SALaoY7uvzQjoizsSPVnJyvFVx2dAd_YaqfAW8hNJI8x239qAJOulyCsJRNdxb9w8N41ukEaxND2EjRJ9YxrcZJm4l6yu53ztvhYaOu8Q_9VrfuCCCTyLeIiFAm8o5qRe7u70rvfKFcObjBZaOYjDbJPnDoSaInfnIm0RM2pFk8eJN31oAQSIL3ZJyYhbst9R-QqGwVdwjii8mXZJC6f2eisgT4qcCFnbMq0sl-fkdtjMDBSyQ",
+          "width": 3072,
+          "height": 4096,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-tKaTGe0of2QiCEdHW0n2Zp9C3jt3eIJRrTBTc8LTzQKdfrqH1SUIskDqp0SALaoY7uvzQjoizsSPVnJyvFVx2dAd_YaqfAW8hNJI8x239qAJOulyCsJRNdxb9w8N41ukEaxND2EjRJ9YxrcZJm4l6yu53ztvhYaOu8Q_9VrfuCCCTyLeIiFAm8o5qRe7u70rvfKFcObjBZaOYjDbJPnDoSaInfnIm0RM2pFk8eJN31oAQSIL3ZJyYhbst9R-QqGwVdwjii8mXZJC6f2eisgT4qcCFnbMq0sl-fkdtjMDBSyQ&key=YOUR_API_KEY"
+        },
+        {
+          "photo_reference": "Ab43m-v4kHwMRmnPptC52i0rDlbHb50PiNtOEFVZhGFcP49KyNwQS9nPXEgLEQRBs4Psl0QkuALiO1yhaUhF0RZNozLTqMXqHmIiW9BgdCWO6MQMRop3a2awtz2o-1id7dSX_jMTlntlM1m_9zg74NXO09NSa5ijIIHCkBuL146qMcOsy5b0ZUetSoz4M9okGyAXkUSY-L4K_QxD9UL97jpv2NJLx7LC5kE8TXyJrk_hfvcM6MZ7zQirG3gSsSMl20MzRDv2dUkEYnv54FIVzGxoAZmh8fngti4nhLaIuPHIE8Mx-A",
+          "width": 856,
+          "height": 1388,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-v4kHwMRmnPptC52i0rDlbHb50PiNtOEFVZhGFcP49KyNwQS9nPXEgLEQRBs4Psl0QkuALiO1yhaUhF0RZNozLTqMXqHmIiW9BgdCWO6MQMRop3a2awtz2o-1id7dSX_jMTlntlM1m_9zg74NXO09NSa5ijIIHCkBuL146qMcOsy5b0ZUetSoz4M9okGyAXkUSY-L4K_QxD9UL97jpv2NJLx7LC5kE8TXyJrk_hfvcM6MZ7zQirG3gSsSMl20MzRDv2dUkEYnv54FIVzGxoAZmh8fngti4nhLaIuPHIE8Mx-A&key=YOUR_API_KEY"
+        },
+        {
+          "photo_reference": "Ab43m-s9H5cc89KhEUGRHr17dclmN7-6s2X5zt_T_Ioy8WdvFGgHw1oIU-tECdKPoNFu1rNRNpXS4yZyUDXM1Q-5ZGRfVKvhHBWAq5NUuX28l6gYJJFnKUHwLuglikrHP8vBbp3bLJgQdPGHcDNi1U4QrBG1wGsq1GWt2X-z3ueQ9FrMDzfjAptmmIIiqdmonwHEQETe3Z-_QA9u5zwRsbxKoPaUF6JMBC-RI8Dh1s_KRHDKZkUxQUZG5Yna6kKiMZGro0jQer7Yuumcny9d56U8I3tmbf3tgESYZlM5AkjX4AypA",
+          "width": 1079,
+          "height": 1303,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+          ],
+          "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-s9H5cc89KhEUGRHr17dclmN7-6s2X5zt_T_Ioy8WdvFGgHw1oIU-tECdKPoNFu1rNRNpXS4yZyUDXM1Q-5ZGRfVKvhHBWAq5NUuX28l6gYJJFnKUHwLuglikrHP8vBbp3bLJgQdPGHcDNi1U4QrBG1wGsq1GWt2X-z3ueQ9FrMDzfjAptmmIIiqdmonwHEQETe3Z-_QA9u5zwRsbxKoPaUF6JMBC-RI8Dh1s_KRHDKZkUxQUZG5Yna6kKiMZGro0jQer7Yuumcny9d56U8I3tmbf3tgESYZlM5AkjX4AypA&key=YOUR_API_KEY"
+        }
+      ],
+      "photo_reference": "Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg",
+      "main_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg&key=YOUR_API_KEY",
+      "raw_google_result": {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "A-828, Money Plant Highstreet, Nr BSNL Office, Jagatpur Road, Sarkhej - Gandhinagar Hwy, Jagatpur, Ahmedabad, Gujarat 382470, India",
+        "formatted_phone_number": "096806 13890",
+        "geometry": {
+          "location": {
+            "lat": 23.1143819,
+            "lng": 72.53763579999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 23.1158876802915,
+              "lng": 72.53900298029151
+            },
+            "southwest": {
+              "lat": 23.1131897197085,
+              "lng": 72.5363050197085
+            }
+          }
+        },
+        "international_phone_number": "+91 96806 13890",
+        "name": "K & C India Exports",
+        "opening_hours": {
+          "open_now": false,
+          "periods": [
+            {
+              "close": {
+                "day": 1,
+                "time": "1900"
+              },
+              "open": {
+                "day": 1,
+                "time": "1000"
+              }
+            },
+            {
+              "close": {
+                "day": 2,
+                "time": "1900"
+              },
+              "open": {
+                "day": 2,
+                "time": "1000"
+              }
+            },
+            {
+              "close": {
+                "day": 3,
+                "time": "1900"
+              },
+              "open": {
+                "day": 3,
+                "time": "1000"
+              }
+            },
+            {
+              "close": {
+                "day": 4,
+                "time": "1900"
+              },
+              "open": {
+                "day": 4,
+                "time": "1000"
+              }
+            },
+            {
+              "close": {
+                "day": 5,
+                "time": "1900"
+              },
+              "open": {
+                "day": 5,
+                "time": "1000"
+              }
+            },
+            {
+              "close": {
+                "day": 6,
+                "time": "1900"
+              },
+              "open": {
+                "day": 6,
+                "time": "1000"
+              }
+            }
+          ],
+          "weekday_text": [
+            "Monday: 10:00 AM – 7:00 PM",
+            "Tuesday: 10:00 AM – 7:00 PM",
+            "Wednesday: 10:00 AM – 7:00 PM",
+            "Thursday: 10:00 AM – 7:00 PM",
+            "Friday: 10:00 AM – 7:00 PM",
+            "Saturday: 10:00 AM – 7:00 PM",
+            "Sunday: Closed"
+          ]
+        },
+        "photos": [
+          {
+            "height": 600,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-sxeGxlT5y7CyYH-lI7i9auLh8-WfyimEibrZZ4W5YZNNPMIHnKyTyyWUnJrjRIgwHkLoyIrev4F6dtUdyUyHn9ALcPN97Oic7jaQRteCUdMpdhFPUBK9aQVEKA9s4b9HLngikD7qEgoMBsyVcPzLb-HRa3dqg7QHQ9V6I0Gt8D115TBj-Z602KczqrLxr4bCw-L7KBtRn2uFGetdiB55IosTfnuDKtn9j0qJ16H5Kou5LqY21xHglzrtnmHle--F8TpqmeYlRwiWByhMvVPrq8khoC6fMCbdYYkjpdez3qLg",
+            "width": 800
+          },
+          {
+            "height": 600,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-scRjlqK7N2MYvT7Q8cnvHNPGg5NVtYL4pYRxVA_DbBT3kz6s7SHzjM5bGXtYvtBc3VxObATaoFoZBlkGN2bM79gN3UWzPK2QpUvNo7mJDUdudMHg2DPlPyq0nhAoD82wYarcVujcVisHaB-UiMaK3RHhKhSCvxiDRgUxF0yqZMj05tBB1wi9XJyDjCIuywH6rY04i6MpXVqpsQDmIzwGlZRcQVujyMiB3PAnERJJGd4a1ck7qa9wv_4zOf6eVstTvZ_SnhgGSAe5qqTb5NP8H182Cg_Rh_2Zxo3kotauW8fg",
+            "width": 800
+          },
+          {
+            "height": 593,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-s40ecCOovXSmAlRfVBsltrdqNr0c8WAZ2Mh58HKOW38BbWOIuGqyCBti9CL9lCFRxiZtf4dVSZxBuW_ZrfmlJ_h6aMhih2E8e8HKFNpfSNH3aZm-9P0P3CSTWkl9KAJZSMUU-bEbQxL2aw8dpEBCK2SrB7OKtkv3v3leqGXUOuvjP8gIoeO8yC7wCEEyrWjIO1xdL0Hx6J3k7gv8Ya7v0P2unsBvoYwMdrY6HmBWPG3vq9GXxwUDuDJyjr4QntdEjTRa_O-mECex4e_AX5pJNGpvsXQFn2a_aRl-qYPqqZkQ",
+            "width": 1079
+          },
+          {
+            "height": 973,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-sSaCbm6vTLCzrBQ3b9Pvk4BOgKHT0Nz_qZXz2xKab-iAEh5HM7WjLk4bid9wAJqGmHBHMeXy0Uxx1qRc0mQ2xagdcxVnHTDRGqX2oWs-bpzteTyM9u7WOS2Ebk62a3gNS2PqUUnrry6ObITadYsxragfb2YkXrJrb7MXuOb-e2AVNRPlsUPNDqs0YmxpU67my6hzi0uuBXrSSjXZRV62uS4Y--1VvX3Ds0S8cUDvXe3EfBfy6CIwN-u7bUMOeFaTjX9polsYZnZlVbxZnQEG_35Mvrgrqe3qOY7174uA8Icw",
+            "width": 1079
+          },
+          {
+            "height": 4096,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-tKaTGe0of2QiCEdHW0n2Zp9C3jt3eIJRrTBTc8LTzQKdfrqH1SUIskDqp0SALaoY7uvzQjoizsSPVnJyvFVx2dAd_YaqfAW8hNJI8x239qAJOulyCsJRNdxb9w8N41ukEaxND2EjRJ9YxrcZJm4l6yu53ztvhYaOu8Q_9VrfuCCCTyLeIiFAm8o5qRe7u70rvfKFcObjBZaOYjDbJPnDoSaInfnIm0RM2pFk8eJN31oAQSIL3ZJyYhbst9R-QqGwVdwjii8mXZJC6f2eisgT4qcCFnbMq0sl-fkdtjMDBSyQ",
+            "width": 3072
+          },
+          {
+            "height": 1388,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-v4kHwMRmnPptC52i0rDlbHb50PiNtOEFVZhGFcP49KyNwQS9nPXEgLEQRBs4Psl0QkuALiO1yhaUhF0RZNozLTqMXqHmIiW9BgdCWO6MQMRop3a2awtz2o-1id7dSX_jMTlntlM1m_9zg74NXO09NSa5ijIIHCkBuL146qMcOsy5b0ZUetSoz4M9okGyAXkUSY-L4K_QxD9UL97jpv2NJLx7LC5kE8TXyJrk_hfvcM6MZ7zQirG3gSsSMl20MzRDv2dUkEYnv54FIVzGxoAZmh8fngti4nhLaIuPHIE8Mx-A",
+            "width": 856
+          },
+          {
+            "height": 1303,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115457076990323374791\">K &amp; C India Exports</a>"
+            ],
+            "photo_reference": "Ab43m-s9H5cc89KhEUGRHr17dclmN7-6s2X5zt_T_Ioy8WdvFGgHw1oIU-tECdKPoNFu1rNRNpXS4yZyUDXM1Q-5ZGRfVKvhHBWAq5NUuX28l6gYJJFnKUHwLuglikrHP8vBbp3bLJgQdPGHcDNi1U4QrBG1wGsq1GWt2X-z3ueQ9FrMDzfjAptmmIIiqdmonwHEQETe3Z-_QA9u5zwRsbxKoPaUF6JMBC-RI8Dh1s_KRHDKZkUxQUZG5Yna6kKiMZGro0jQer7Yuumcny9d56U8I3tmbf3tgESYZlM5AkjX4AypA",
+            "width": 1079
+          }
+        ],
+        "rating": 3,
+        "reviews": [
+          {
+            "author_name": "Chahak kalal Kalal",
+            "author_url": "https://www.google.com/maps/contrib/111879899164196882779/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLNcao_aOIbFKiBroJ_sSlJHY1IuUBSh_moZFWMAmmAcBWtFA=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "relative_time_description": "5 months ago",
+            "text": "Bad experience",
+            "time": 1764989222,
+            "translated": false
+          },
+          {
+            "author_name": "sanjay patel",
+            "author_url": "https://www.google.com/maps/contrib/109717423587442299086/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI5Dqv6Z1jxKI0YbvrU48m_sWXZHY60iFQ_yn0Zr052z06nmw=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "relative_time_description": "2 years ago",
+            "text": "Bast quality  and excellent service",
+            "time": 1698059315,
+            "translated": false
+          }
+        ],
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ],
+        "url": "https://maps.google.com/?cid=10263438489876499376",
+        "user_ratings_total": 2
+      },
+      "website_content": {
+        "homepage": {
+          "hero_section": {
+            "title": "K & C India Exports: Your Gateway to Premium Indian Products",
+            "subtitle": "Connecting the rich heritage of India with global markets through unparalleled export solutions.",
+            "button_text": "Discover Our Offerings"
+          },
+          "introduction": {
+            "heading": "Welcome to K & C India Exports",
+            "paragraph_1": "K & C India Exports stands as a bridge between the vibrant markets of India and discerning clients worldwide. We are dedicated to facilitating seamless and efficient export of high-quality Indian products, ensuring every transaction reflects our commitment to excellence and reliability.",
+            "paragraph_2": "With a deep understanding of international trade and a robust network, we pride ourselves on delivering exceptional service. Our mission is to empower businesses globally by providing access to the finest goods India has to offer, all while maintaining stringent quality control and fostering strong, lasting partnerships."
+          }
+        },
+        "products_services_page": {
+          "heading": "Our Export Solutions",
+          "introduction": "At K & C India Exports, we offer a comprehensive suite of services designed to streamline your international procurement process. From sourcing to delivery, we handle every aspect with precision and professionalism, ensuring your goods arrive on time and to your exact specifications.",
+          "service_offerings": [
+            {
+              "title": "Global Sourcing & Export Facilitation",
+              "description": "Leverage our extensive network across India to source a diverse range of high-quality products. We manage the entire export process, from supplier identification and negotiation to documentation and customs clearance, making international trade effortless for you."
+            },
+            {
+              "title": "Rigorous Quality Assurance",
+              "description": "Our commitment to quality is unwavering. We implement strict quality control measures at every stage, ensuring that all products meet international standards and your specific requirements before they are shipped. Your satisfaction is our top priority."
+            },
+            {
+              "title": "Efficient Logistics & Supply Chain",
+              "description": "Experience hassle-free logistics with our expert supply chain management. We optimize shipping routes, coordinate with reliable carriers, and track your consignment diligently to ensure timely and secure delivery to your destination, anywhere in the world."
+            }
+          ]
+        },
+        "testimonials_section": {
+          "heading": "What Our Clients Say",
+          "testimonials": [
+            {
+              "author_name": "Chahak kalal Kalal",
+              "review": "Bad experience",
+              "rating": 1
+            },
+            {
+              "author_name": "sanjay patel",
+              "review": "Bast quality and excellent service",
+              "rating": 5
+            }
+          ]
+        },
+        "contact_section": {
+          "heading": "Connect With Us",
+          "email": "info@kandcindiaexports.com",
+          "phone": "+91 96806 13890",
+          "address": "A-828, Money Plant Highstreet, Nr BSNL Office, Jagatpur Road, Sarkhej - Gandhinagar Hwy, Jagatpur, Ahmedabad, Gujarat 382470, India"
+        },
+        "seo": {
+          "meta_title": "K & C India Exports | Premier Indian Product Exporters",
+          "meta_description": "K & C India Exports facilitates global trade of high-quality Indian products. Specializing in sourcing, quality assurance, and efficient logistics for international markets from Ahmedabad, Gujarat.",
+          "keywords": [
+            "India exports",
+            "Indian products export",
+            "global trade India",
+            "sourcing India",
+            "export company Ahmedabad",
+            "Gujarat exporters",
+            "international trade solutions",
+            "quality Indian goods"
+          ]
+        },
+        "theme": {
+          "primary_color": "#005691",
+          "secondary_color": "#FFD700",
+          "font_style": "Open Sans, sans-serif"
+        }
+      }
+    }
+  ]
