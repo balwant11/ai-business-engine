@@ -3,8 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function FullscreenFashion({ data = {} }) {
-  const { name, tagline } = data;
+export default function FullscreenFashion({ business = {}, content = {} }) {
+  const heroContent = content.hero || {};
+  const { name } = business;
+  const { tagline } = heroContent;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">

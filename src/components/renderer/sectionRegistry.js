@@ -10,14 +10,14 @@ import Contact from "../sections/Contact";
 import Fabrics from "../sections/Fabrics";
 
 export const sectionRegistry = {
-  Hero: Hero,
-  About: About,
-  Gallery: Gallery,
-  CTA: CTA,
-  Reviews: Reviews,
-  Stats: Stats,
-  FAQ: FAQ,
-  Process: Process,
-  Contact: Contact,
-  Fabrics: Fabrics
+  hero: Hero,
+  about: About,
+  gallery: Gallery,
+  cta: CTA,
+  reviews: Reviews,
+  stats: Stats,
+  faq: FAQ,
+  process: Process,
+  contact: Contact,
+  fabrics: Fabrics
 };

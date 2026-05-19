@@ -3,8 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function EditorialSplit({ data = {} }) {
-  const { tagline, description } = data;
+export default function EditorialSplit({ business = {}, content = {} }) {
+  const heroContent = content.hero || {};
+  const { name } = business;
+  const { tagline, description } = heroContent;
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -24,7 +26,7 @@ export default function EditorialSplit({ data = {} }) {
         >
           <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 mb-6">
             <span className="h-px w-8 bg-[var(--color-accent)]"></span>
-            <span className="uppercase text-xs tracking-[0.25em] font-medium text-[var(--color-accent)] font-heading">Editorial Showcase</span>
+            <span className="uppercase text-xs tracking-[0.25em] font-medium text-[var(--color-accent)] font-heading">{name || "Atelier"}</span>
           </motion.div>
           
           <motion.h1 

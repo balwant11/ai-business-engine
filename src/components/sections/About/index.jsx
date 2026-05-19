@@ -11,7 +11,7 @@ const variants = {
   "minimal-brand": MinimalBrand
 };
 
-export default function About({ variant = "split-image", data = {} }) {
+export default function About({ variant = "split-image", business = {}, content = {} }) {
   const Component = variants[variant] || SplitImage;
-  return <Component data={data} />;
+  return <Component business={business} content={content} />;
 }

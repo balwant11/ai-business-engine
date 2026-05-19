@@ -5,13 +5,13 @@ import businessData from "../../business.json";
 export async function generateMetadata() {
   const seo = businessData.seo || {};
   return {
-    title: seo.title || businessData.businessData?.name || "Apparel Manufacturer",
-    description: seo.description || businessData.businessData?.tagline || "Conscious Garment Exporter",
+    title: seo.title || businessData.business?.name || "Apparel Manufacturer",
+    description: seo.description || businessData.business?.tagline || "Conscious Garment Exporter",
   };
 }
 
 export default function RootLayout({ children }) {
-  const themeName = businessData.theme || "luxury-fashion";
+  const themeName = businessData.website_config?.theme || "luxury-fashion";
   const themeStyles = getThemeStyles(themeName);
 
   return (

@@ -9,11 +9,11 @@ const variants = {
   "luxury-collapse": LuxuryCollapse
 };
 
-export default function FAQ({ variant = "accordion-minimal", data = {} }) {
-  const faq = data.faq || [];
+export default function FAQ({ variant = "accordion-minimal", business = {}, content = {} }) {
+  const faqList = content.faq || [];
 
-  if (!faq || faq.length === 0) return null;
+  if (!faqList || faqList.length === 0) return null;
 
   const Component = variants[variant] || AccordionMinimal;
-  return <Component faq={faq} />;
+  return <Component faq={faqList} />;
 }

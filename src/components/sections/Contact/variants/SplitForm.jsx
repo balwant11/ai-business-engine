@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-export default function SplitForm({ data = {} }) {
-  const { email, phone, address } = data;
+export default function SplitForm({ business = {} }) {
+  const { email, phone, address } = business;
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {

@@ -11,8 +11,8 @@ const variants = {
   "carousel": Carousel
 };
 
-export default function Gallery({ variant = "editorial-grid", data = {}, config = {} }) {
-  const gallery = data.gallery || config.images || [];
+export default function Gallery({ variant = "editorial-grid", business = {}, content = {} }) {
+  const gallery = content.gallery || [];
   
   if (!gallery || gallery.length === 0) return null;
 

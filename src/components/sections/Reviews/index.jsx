@@ -11,11 +11,11 @@ const variants = {
   "marquee-testimonials": MarqueeTestimonials
 };
 
-export default function Reviews({ variant = "stacked-cards", data = {} }) {
-  const testimonials = data.testimonials || [];
+export default function Reviews({ variant = "stacked-cards", business = {}, content = {} }) {
+  const reviewsList = content.reviews || [];
   
-  if (!testimonials || testimonials.length === 0) return null;
+  if (!reviewsList || reviewsList.length === 0) return null;
 
   const Component = variants[variant] || StackedCards;
-  return <Component testimonials={testimonials} />;
+  return <Component testimonials={reviewsList} />;
 }

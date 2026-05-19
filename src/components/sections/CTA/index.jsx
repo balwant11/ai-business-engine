@@ -11,7 +11,7 @@ const variants = {
   "minimal-border": MinimalBorder
 };
 
-export default function CTA({ variant = "dark-luxury", data = {} }) {
+export default function CTA({ variant = "dark-luxury", business = {}, content = {} }) {
   const Component = variants[variant] || DarkLuxury;
-  return <Component data={data} />;
+  return <Component business={business} content={content} />;
 }

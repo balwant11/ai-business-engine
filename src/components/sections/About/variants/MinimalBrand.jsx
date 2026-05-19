@@ -2,8 +2,9 @@
 
 import React from "react";
 
-export default function MinimalBrand({ data = {} }) {
-  const { description } = data;
+export default function MinimalBrand({ content = {} }) {
+  const aboutContent = content.about || {};
+  const { description } = aboutContent;
 
   if (!description) return null;
 

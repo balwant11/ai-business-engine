@@ -5,23 +5,25 @@ import SectionRenderer from "@/components/renderer/SectionRenderer";
 import businessData from "../../business.json";
 
 export default function Home() {
-  if (!businessData || !businessData.businessData) return null;
+  if (!businessData || !businessData.business) return null;
 
-  const bData = businessData.businessData || {};
-  const layout = businessData.layout || {};
+  const bData = businessData.business || {};
+  const wConfig = businessData.website_config || {};
+  const wContent = businessData.website_content || {};
   
   return (
     <>
-      <Navbar variant={layout.navbarVariant} data={bData} />
+      <Navbar variant={wConfig.navbarVariant} data={bData} />
       
       <main className="flex-grow">
         <SectionRenderer 
-          sections={layout.sections || []} 
-          businessData={bData} 
+          sections={wConfig.layout?.sections || []} 
+          business={bData} 
+          content={wContent}
         />
       </main>
 
-      <Footer variant={layout.footerVariant} data={bData} />
+      <Footer variant={wConfig.footerVariant} data={bData} />
     </>
   );
 }

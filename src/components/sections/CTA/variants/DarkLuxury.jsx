@@ -3,8 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function DarkLuxury({ data = {} }) {
-  const { name } = data;
+export default function DarkLuxury({ business = {}, content = {} }) {
+  const ctaContent = content.cta || {};
+  const { name } = business;
+  const { title, subtitle, description } = ctaContent;
 
   return (
     <section className="relative py-28 md:py-36 bg-black text-white overflow-hidden">
@@ -22,19 +24,19 @@ export default function DarkLuxury({ data = {} }) {
           className="flex flex-col items-center"
         >
           <span className="uppercase text-xs tracking-[0.3em] text-[var(--color-accent)] font-heading mb-6 font-bold">
-            Dynamic Production Booking
+            {subtitle || "Production Allocation"}
           </span>
           
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-black tracking-tight leading-none mb-8 max-w-4xl">
-            Secure Sourcing For Dynamic Collection Runs
+            {title || "Secure Your Brand's Next Production Run"}
           </h2>
           
           <p className="text-base sm:text-lg text-neutral-400 max-w-2xl mb-12 leading-relaxed font-body">
-            Initiate carbon-neutral materials development under {name || "Atelier Exporters"}.
+            {description || `Partner with ${name || "Atelier Exporters"} for premium traceable execution.`}
           </p>
           
           <a href="#contact" className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-10 py-5 transition-all duration-500 font-heading">
-            Sourcing Prospectus
+            Request Manufacturing Prospectus
           </a>
         </motion.div>
       </div>

@@ -11,7 +11,7 @@ const variants = {
   "minimal-dark": MinimalDark
 };
 
-export default function Hero({ variant = "editorial-split", data = {} }) {
+export default function Hero({ variant = "editorial-split", business = {}, content = {} }) {
   const Component = variants[variant] || EditorialSplit;
-  return <Component data={data} />;
+  return <Component business={business} content={content} />;
 }

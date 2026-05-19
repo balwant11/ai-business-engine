@@ -3,8 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function MinimalDark({ data = {} }) {
-  const { tagline, description } = data;
+export default function MinimalDark({ business = {}, content = {} }) {
+  const heroContent = content.hero || {};
+  const { name } = business;
+  const { tagline, description } = heroContent;
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -23,7 +25,7 @@ export default function MinimalDark({ data = {} }) {
           className="lg:col-span-8 flex flex-col justify-center"
         >
           <motion.span variants={fadeInUp} className="text-[var(--color-primary)] font-heading text-sm uppercase tracking-[0.3em] font-bold mb-6">
-            [ DIGITAL MILL ENGINE ]
+            [ {name ? name.toUpperCase() : "FOUNDRY"} ]
           </motion.span>
           
           <motion.h1 
@@ -42,7 +44,7 @@ export default function MinimalDark({ data = {} }) {
           
           <motion.div variants={fadeInUp} className="flex gap-4">
             <a href="#contact" className="bg-[var(--color-primary)] text-black hover:bg-white uppercase font-black tracking-widest text-xs px-8 py-5 transition-all duration-300 border-2 border-[var(--color-primary)]">
-              Initiate Project Sourcing
+              Initiate Run
             </a>
           </motion.div>
         </motion.div>

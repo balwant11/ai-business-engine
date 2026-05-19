@@ -3,7 +3,7 @@
 import React from "react";
 import { sectionRegistry } from "./sectionRegistry";
 
-export default function SectionRenderer({ sections = [], businessData = {} }) {
+export default function SectionRenderer({ sections = [], business = {}, content = {} }) {
   if (!Array.isArray(sections)) return null;
 
   return (
@@ -11,7 +11,8 @@ export default function SectionRenderer({ sections = [], businessData = {} }) {
       {sections.map((section, index) => {
         if (!section || !section.type) return null;
 
-        const SectionComponent = sectionRegistry[section.type];
+        // Support case insensitive mappings (e.g. "Hero" or "hero", "CTA" or "cta")
+        const SectionComponent = sectionRegistry[section.type.toLowerCase()];
 
         if (!SectionComponent) {
           console.warn(`[SectionRenderer] Section type "${section.type}" not found in registry.`);
@@ -23,7 +24,8 @@ export default function SectionRenderer({ sections = [], businessData = {} }) {
             <SectionComponent
               key={`${section.type}-${index}`}
               variant={section.variant}
-              data={businessData}
+              business={business}
+              content={content}
               config={section}
             />
           );

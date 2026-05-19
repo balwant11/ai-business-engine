@@ -2,8 +2,8 @@
 
 import React from "react";
 
-export default function MinimalContact({ data = {} }) {
-  const { email, phone } = data;
+export default function MinimalContact({ business = {} }) {
+  const { email, phone } = business;
 
   return (
     <section className="py-20 bg-[var(--color-bg-secondary)] text-center">

@@ -3,8 +3,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function EditorialStory({ data = {} }) {
-  const { description } = data;
+export default function EditorialStory({ content = {} }) {
+  const aboutContent = content.about || {};
+  const { description } = aboutContent;
 
   if (!description) return null;
 

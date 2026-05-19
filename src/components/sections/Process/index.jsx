@@ -11,11 +11,11 @@ const variants = {
   "image-process": ImageProcess
 };
 
-export default function Process({ variant = "timeline-editorial", data = {} }) {
-  const process = data.process || [];
+export default function Process({ variant = "timeline-editorial", business = {}, content = {} }) {
+  const processList = content.process || [];
 
-  if (!process || process.length === 0) return null;
+  if (!processList || processList.length === 0) return null;
 
   const Component = variants[variant] || TimelineEditorial;
-  return <Component process={process} />;
+  return <Component process={processList} />;
 }

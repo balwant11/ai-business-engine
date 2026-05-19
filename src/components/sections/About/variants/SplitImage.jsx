@@ -3,8 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function SplitImage({ data = {} }) {
-  const { description, yearEstablished, capacity } = data;
+export default function SplitImage({ business = {}, content = {} }) {
+  const aboutContent = content.about || {};
+  const { yearEstablished, capacity } = business;
+  const { title, description } = aboutContent;
 
   if (!description) return null;
 
@@ -27,7 +29,7 @@ export default function SplitImage({ data = {} }) {
         >
           <img 
             src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1600&auto=format&fit=crop" 
-            alt="Luxury apparel atelier mill" 
+            alt="Luxury atelier manufacturing process" 
             className="absolute inset-0 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
           />
           <div className="absolute bottom-6 left-6 bg-[var(--color-bg-primary)] px-8 py-6 border border-[var(--color-border)]">
@@ -43,11 +45,11 @@ export default function SplitImage({ data = {} }) {
           className="lg:col-span-6 flex flex-col justify-center"
         >
           <motion.span variants={fadeInUp} className="uppercase text-xs tracking-[0.25em] text-[var(--color-accent)] font-semibold mb-6">
-            Dynamic Legacy
+            Our Legacy
           </motion.span>
           
           <motion.h2 variants={fadeInUp} className="text-3xl sm:text-4xl font-heading text-[var(--color-text-primary)] tracking-tight mb-8 font-bold leading-tight">
-            Crafting conscious garment solutions for contemporary epoch.
+            {title || "Crafting conscious garment solutions for the contemporary epoch."}
           </motion.h2>
           
           <motion.p variants={fadeInUp} className="text-base text-[var(--color-text-muted)] leading-relaxed mb-8 font-body">
@@ -55,10 +57,12 @@ export default function SplitImage({ data = {} }) {
           </motion.p>
 
           <motion.div variants={fadeInUp} className="grid grid-cols-2 gap-8 border-t border-[var(--color-border)] pt-8 mt-4">
-            <div>
-              <p className="text-2xl font-heading text-[var(--color-text-primary)] font-black">{capacity}</p>
-              <p className="text-xs uppercase text-[var(--color-text-muted)] tracking-wider mt-1">Annual Capacity</p>
-            </div>
+            {capacity && (
+              <div>
+                <p className="text-2xl font-heading text-[var(--color-text-primary)] font-black">{capacity}</p>
+                <p className="text-xs uppercase text-[var(--color-text-muted)] tracking-wider mt-1">Annual Capacity</p>
+              </div>
+            )}
             <div>
               <p className="text-2xl font-heading text-[var(--color-text-primary)] font-black">Carbon Neutral</p>
               <p className="text-xs uppercase text-[var(--color-text-muted)] tracking-wider mt-1">Sustainability Metric</p>

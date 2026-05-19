@@ -11,11 +11,11 @@ const variants = {
   "split-metrics": SplitMetrics
 };
 
-export default function Stats({ variant = "luxury-grid", data = {} }) {
-  const stats = data.stats || [];
+export default function Stats({ variant = "luxury-grid", business = {}, content = {} }) {
+  const statsList = content.stats || [];
 
-  if (!stats || stats.length === 0) return null;
+  if (!statsList || statsList.length === 0) return null;
 
   const Component = variants[variant] || LuxuryGrid;
-  return <Component stats={stats} />;
+  return <Component stats={statsList} />;
 }

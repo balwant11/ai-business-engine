@@ -11,7 +11,7 @@ const variants = {
   "dark-contact": DarkContact
 };
 
-export default function Contact({ variant = "split-form", data = {} }) {
+export default function Contact({ variant = "split-form", business = {}, content = {} }) {
   const Component = variants[variant] || SplitForm;
-  return <Component data={data} />;
+  return <Component business={business} content={content} />;
 }

@@ -2,8 +2,8 @@
 
 import React from "react";
 
-export default function DarkContact({ data = {} }) {
-  const { email, phone, address } = data;
+export default function DarkContact({ business = {} }) {
+  const { email, phone, address } = business;
 
   return (
     <section className="py-24 bg-black text-white">
