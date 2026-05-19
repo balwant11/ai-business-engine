@@ -2,12 +2,22 @@ import HeroSection from "@/sections/HeroSection";
 import AboutSection from "@/sections/AboutSection";
 import ServicesSection from "@/sections/ServicesSection";
 import TestimonialsSection from "@/sections/TestimonialsSection";
+import ProductsGridSection from "@/sections/ProductsGridSection";
+import ContactFormSection from "@/sections/ContactFormSection";
+import GallerySection from "@/sections/GallerySection";
+import CTASection from "@/sections/CTASection";
+import TeamSection from "@/sections/TeamSection";
 
 const sectionMap = {
   hero: HeroSection,
   about: AboutSection,
   services: ServicesSection,
   testimonials: TestimonialsSection,
+  productsGrid: ProductsGridSection,
+  contactForm: ContactFormSection,
+  gallery: GallerySection,
+  cta: CTASection,
+  team: TeamSection,
 };
 
 export default function SectionRenderer({ sections }) {
@@ -18,7 +28,12 @@ export default function SectionRenderer({ sections }) {
 
         if (!Component) return null;
 
-        return <Component key={index} data={section} />;
+        return (
+          <Component
+            key={index}
+            data={section}
+          />
+        );
       })}
     </>
   );
