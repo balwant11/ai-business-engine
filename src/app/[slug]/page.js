@@ -2,8 +2,8 @@ import SectionRenderer from "@/components/SectionRenderer";
 import { getPage } from "@/lib/getpage";
 
 export default async function DynamicPage({ params }) {
-
-  const slug = `/${params.slug}`;
+  const { slug: rawSlug } = await params;
+  const slug = `/${rawSlug}`;
 
   const page = getPage(slug);
 
@@ -13,9 +13,7 @@ export default async function DynamicPage({ params }) {
 
   return (
     <main>
-      <SectionRenderer
-        sections={page.sections}
-      />
+      <SectionRenderer sections={page.sections} />
     </main>
   );
 }

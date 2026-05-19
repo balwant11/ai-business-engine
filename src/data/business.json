@@ -93,10 +93,7 @@
       "translated": false
     }
   ],
-  "types": [
-    "establishment",
-    "point_of_interest"
-  ],
+  "types": ["establishment", "point_of_interest"],
   "types_string": "establishment, point_of_interest",
   "photos": [
     {
@@ -434,10 +431,7 @@
         "translated": false
       }
     ],
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ],
+    "types": ["establishment", "point_of_interest"],
     "url": "https://maps.google.com/?cid=14160901468591927171",
     "user_ratings_total": 16
   },

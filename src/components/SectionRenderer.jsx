@@ -1,12 +1,12 @@
-import HeroSection from "@/sections/HeroSection";
-import AboutSection from "@/sections/AboutSection";
-import ServicesSection from "@/sections/ServicesSection";
-import TestimonialsSection from "@/sections/TestimonialsSection";
-import ProductsGridSection from "@/sections/ProductsGridSection";
-import ContactFormSection from "@/sections/ContactFormSection";
-import GallerySection from "@/sections/GallerySection";
-import CTASection from "@/sections/CTASection";
-import TeamSection from "@/sections/TeamSection";
+import HeroSection from "@/sections/hero/HeroSection";
+import AboutSection from "@/sections/about/AboutSection";
+import ServicesSection from "@/sections/services/ServicesSection";
+import TestimonialsSection from "@/sections/testimonials/TestimonialsSection";
+import ProductsGridSection from "@/sections/products/ProductsGridSection";
+import ContactFormSection from "@/sections/contact/ContactFormSection";
+import GallerySection from "@/sections/gallery/GallerySection";
+import CTASection from "@/sections/cta/CTASection";
+import TeamSection from "@/sections/team/TeamSection";
 
 const sectionMap = {
   hero: HeroSection,
@@ -14,24 +14,30 @@ const sectionMap = {
   services: ServicesSection,
   testimonials: TestimonialsSection,
   productsGrid: ProductsGridSection,
-  contactForm: ContactFormSection,
+  contact: ContactFormSection,
   gallery: GallerySection,
   cta: CTASection,
   team: TeamSection,
 };
 
 export default function SectionRenderer({ sections }) {
+  if (!sections || !Array.isArray(sections)) return null;
+
   return (
     <>
       {sections.map((section, index) => {
         const Component = sectionMap[section.type];
 
-        if (!Component) return null;
+        if (!Component) {
+          console.warn(`No component found for section type: ${section.type}`);
+          return null;
+        }
 
         return (
           <Component
             key={index}
-            data={section}
+            data={section.content}
+            variant={section.variant}
           />
         );
       })}
