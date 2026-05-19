@@ -2,12 +2,13 @@ import "./globals.css";
 import businessData from "@/data/business.json";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { getThemeStyles } from "@/lib/theme";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
   title: businessData.name,
-  description: businessData.editorial_summary || `Welcome to ${businessData.name}`,
+  description:
+    businessData.editorial_summary || `Welcome to ${businessData.name}`,
 };
 
 export default function RootLayout({ children }) {
@@ -16,8 +17,15 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body style={themeStyles} className="font-main text-primary bg-secondary antialiased">
-        <Navbar menu={website.pages} business={businessData} variant={website.navbarVariant} />
+      <body
+        style={themeStyles}
+        className="font-main text-primary bg-secondary antialiased"
+      >
+        <Navbar
+          menu={website.pages}
+          business={businessData}
+          variant={website.navbarVariant}
+        />
         {children}
         <Footer business={businessData} variant={website.footerVariant} />
         <WhatsAppButton phone={businessData.phone} />
