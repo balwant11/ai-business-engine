@@ -1,28 +1,40 @@
 export default function TestimonialsSection({ data }) {
-  if (!data) return null;
 
   return (
-    <section className="py-24 px-10 bg-black text-white">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-5xl font-bold mb-16 text-center">{data.heading}</h2>
+    <section className="py-20 px-6">
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {data.testimonials
-            ?.filter((item) => item.rating >= 3)
-            .map((item, index) => (
-              <div
-                key={index}
-                className="border border-gray-700 p-8 rounded-3xl"
-              >
-                <p className="text-xl mb-8 leading-relaxed">"{item.review}"</p>
+      <div className="max-w-6xl mx-auto">
 
-                <h4 className="font-bold text-lg">— {item.author_name}</h4>
+        <h2 className="text-4xl font-bold mb-10">
+          {data?.heading || "Testimonials"}
+        </h2>
 
-                <p className="mt-3 text-yellow-400">Rating: {item.rating}/5</p>
-              </div>
-            ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          {(data?.items || []).map((item, index) => (
+
+            <div
+              key={index}
+              className="border p-6 rounded-2xl"
+            >
+
+              <p className="mb-4">
+                "{item.review}"
+              </p>
+
+              <h3 className="font-semibold">
+                {item.author}
+              </h3>
+
+            </div>
+
+          ))}
+
         </div>
+
       </div>
+
     </section>
   );
+
 }
