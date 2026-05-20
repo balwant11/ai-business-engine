@@ -4,11 +4,13 @@ import React from "react";
 import TimelineEditorial from "./variants/TimelineEditorial";
 import VerticalSteps from "./variants/VerticalSteps";
 import ImageProcess from "./variants/ImageProcess";
+import NumberedCards from "./variants/NumberedCards";
 
 const variants = {
   "timeline-editorial": TimelineEditorial,
   "vertical-steps": VerticalSteps,
-  "image-process": ImageProcess
+  "image-process": ImageProcess,
+  "numbered-cards": NumberedCards
 };
 
 export default function Process({ variant = "timeline-editorial", business = {}, content = {} }) {

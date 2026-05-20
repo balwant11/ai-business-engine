@@ -2,9 +2,11 @@
 
 import React from "react";
 import FabricCards from "./variants/FabricCards";
+import FabricSpecGrid from "./variants/FabricSpecGrid";
 
 const variants = {
-  "fabric-cards": FabricCards
+  "fabric-cards": FabricCards,
+  "fabric-spec-grid": FabricSpecGrid
 };
 
 export default function Fabrics({ variant = "fabric-cards", business = {}, content = {} }) {

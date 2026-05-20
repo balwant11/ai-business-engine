@@ -1,170 +1,152 @@
 {
   "business": {
-    "name": "OYC FASHION",
-    "full_address": "Gujarat Garment Zone, B-11, Kudasan, Gandhinagar, Gujarat 382426, India",
-    "phone": "+91 90060 01449",
-    "local_phone": "090060 01449",
-    "rating": 4.9,
-    "total_reviews": 16,
-    "business_status": "OPERATIONAL",
-    "google_maps_url": "https://maps.google.com/?cid=14160901468591927171",
-    "lat": 23.1559026,
-    "lng": 72.6364878,
-    "open_now": true,
-    "weekday_hours": [
-      "Monday: 10:30 AM – 6:30 PM",
-      "Tuesday: 10:30 AM – 6:30 PM",
-      "Wednesday: 10:30 AM – 6:30 PM",
-      "Thursday: 10:30 AM – 6:30 PM",
-      "Friday: 10:30 AM – 6:30 PM",
-      "Saturday: 10:30 AM – 6:30 PM",
-      "Sunday: Closed"
-    ],
-    "types": ["establishment", "point_of_interest"],
-    "reviews": [
-      {
-        "author_name": "renishkumar rathod",
-        "rating": 5,
-        "review": "Excellent Quality and Service – Highly Recommended!\n\nWe recently partnered with OYC for a bulk order of custom T-shirts, and the experience was outstanding from start to finish. The quality of the fabric is top-notch—soft, durable, and comfortable. Their attention to detail in stitching and printing was impressive, delivering exactly what we envisioned.\n\nWhat truly sets them apart is their customer service. The team was responsive, professional, and accommodating throughout the entire process. They provided helpful guidance on design, sizing, and materials, ensuring we got the best possible outcome within our budget.\n\nThe turnaround time was fast, and the packaging was done with care. Whether you're a business, event organizer, or just need custom tees, I highly recommend OYC for reliable, high-quality T-shirt manufacturing",
-        "time_ago": "a year ago"
-      },
-      {
-        "author_name": "Pravin thakor Pravin thakor",
-        "rating": 5,
-        "review": "All Range of T-shirt available , one stop solution for customized T-shirts. Happy with Quality and Price ..",
-        "time_ago": "2 years ago"
-      },
-      {
-        "author_name": "Jainam Vaghela",
-        "rating": 5,
-        "review": "They have amazing number of products.",
-        "time_ago": "a year ago"
-      }
-    ],
-    "photos": [
-      {
-        "width": 960,
-        "height": 1280,
-        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-vCHS6yPzasKY8fJg6Sj6GZqDJGzaEEW9jl8bLXjrhZ__aeK7JQPpNicbrf36xL00sHYOq5EChXsIUw0Jqup9QgDYgtrRlhcxNV-MjCK4OX0_Ygfc54RiiyBlBeB_oOMAgIyYQNR5Stjg63cFByVXfIc1EuVnMblAEzfI4GXMXPzeDHTOFX5uoRXuqtw3fTYB2shmkiZTghKqprZOkb7Sks2BGNZGy14rH3fUX3TDEN_t9Jd3vlZXKwQdHOqXszrSC_r4xdrMJVb5K5PtPgpXeckS2ap5Le59Cq9_cYy_wlAA&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE"
-      },
-      {
-        "width": 3084,
-        "height": 3072,
-        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-v3ngMvrOFJBy8MqRzrJOejpTabzqneYPz4iQddyE0hYnIF57MwHzaxdhqX5lJe4Gvj6VaoEf11lLt8awKM_qHJRW52KA0QdVoJtW2Ougu2wv6MNkTfoEI0PQEhvN5rX88rgwrT51GKq_36hLlbSnoHmYn-3Qag0_vyoMtrwaOUjlWtiAq1hHaYwDjEhHTtEHTWGSiOz56i1iYERNUcZih8qnaeUZkDcLVXwyGdqAy13vtl2t50R7lz_OwLvUZRtRfze7TVkzKTolrsKmjmW8Vy0_6tuVyxaySYEiclJUjshA&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE"
-      },
-      {
-        "width": 1294,
-        "height": 1765,
-        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-tvfqBfTe5jdbgT9-tCSxNa2C2QTD-itwS-F7CjgFz20Fmw1BLVXWKf3PrWcLhaTXuBIvVATBycuxmBr9DRHHngkxChGVKXcAUU7x03aXN7HoAYDcj8uTGIA8RGMkCfPoxu4Qo6w24tKNfg2E3-VTKo2RSaFvEFJTqiYFFFF7xHCxVNk6Qz4OpY5Z15X69n1RFdRTL7nXVCbPd13ppz9acT4Vk0LFk3AegmhZJjv3xI29GlDYXYZrCchQQeMXc9UqKsJFdYjJ1P8CfoRTGlBWk-kF0vmz1QcrCbfK7MioQnsA&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE"
-      },
-      {
-        "width": 4500,
-        "height": 4500,
-        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-sGEbwz9jFF9neWBbcJVYJXm_ZwyFLrZ-2JC8FPv7_-p_t96GmiHs_ETus0piJdPVsrhc0CgI3MRcSSwrt9cC5qy9bGJD9NYAs3oXg4__2yWzBymY6OusobYX7z0Dzqz93JCaeg_iN8d6y9n1zsmYocNvyGqbIbu2UrcjmqaXgyrfKYbbKrLjW47dVfGvMpO4i60axxRw-uJ42s3hQyRqidslc6UPXOaz7MUaAEFayUZ_CdfsqT9t3VdcUCsysVKM1bqUPC_A2h_WeeqZuHy_3wEqete0aSpscXqt4X58VuLQ&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE"
-      },
-      {
-        "width": 1248,
-        "height": 1561,
-        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-uEv3JwPq6TYXVkjsDBZ_aF8puZOfxnhvEej2r4ALt0qGuFdd7tN-1AQ-i6otHsxVz7VYGkm1QqLoQV70AcXSpMDRqP3DAQ2wtwI518dYawbtVMylXsicDS5loVjE40OyB0I4Bei6TN9JmiCPawTmxVEuhGeUS8I3enUHRsQs7RigL7Vr7emzUzJNVZQiT4jTiK5scFqjvACOBWzyPMRzYsSvHxF55HUsn0pSWGTOvU-3SWTzcue4S8bVsn7Y7qT1nT0-1Ao0Ma7nCyd8zX1cpQdgoVt1GLZmxiaINWjPBYIw&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE"
-      },
-      {
-        "width": 554,
-        "height": 554,
-        "photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-vQhz6MAmmrAiJWqtatiWpimiHZPIgRpjTX6-uTksjVt5xy0P5cJd14_hnn9PZM6jNW5-6PkxiTGFAZz3MszUlYlKH-LNq8VUP1fjfoILZQ3Gcmu7mu7NFpDaTRrhmJBYuNDZf04K4nPMM98tiHESEtzCZAPKqCuNWvfcDGPtNhu-gK7ffnJ9wc_wi7fl29s23Mu0EIAdOpZ8Nw7PPa7zteLe98mdLDut8G2BsmmZik3x5fTjDASxwgMtj93MOE6h2f-QuI-Ik2IQS_a8-UtTSvEsKBNBFqMlxkdZA2K-AMTA&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE"
-      }
-    ],
-    "main_photo_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Ab43m-vCHS6yPzasKY8fJg6Sj6GZqDJGzaEEW9jl8bLXjrhZ__aeK7JQPpNicbrf36xL00sHYOq5EChXsIUw0Jqup9QgDYgtrRlhcxNV-MjCK4OX0_Ygfc54RiiyBlBeB_oOMAgIyYQNR5Stjg63cFByVXfIc1EuVnMblAEzfI4GXMXPzeDHTOFX5uoRXuqtw3fTYB2shmkiZTghKqprZOkb7Sks2BGNZGy14rH3fUX3TDEN_t9Jd3vlZXKwQdHOqXszrSC_r4xdrMJVb5K5PtPgpXeckS2ap5Le59Cq9_cYy_wlAA&key=AIzaSyCAx-vT1jrVkMby9szUsAPORWFlhEmExZE",
-    "city": "Ahemdabad"
+    "name": "Atelier Garment Exporters",
+    "phone": "+91 44 2815 9000",
+    "email": "inquiries@ateliergarments.com",
+    "address": "Atelier Towers, Sector 4, KASEZ, Chennai, Tamil Nadu 600096, India",
+    "yearEstablished": "1994",
+    "capacity": "2.4 Million Garments Annually"
   },
   "website_config": {
     "theme": "premium-minimal",
+    "navbarVariant": "centered-logo",
+    "footerVariant": "minimal-inline",
     "branding": {
-      "style": "sophisticated",
-      "tone": "professional"
+      "style": "Clean Textile Atelier",
+      "tone": "minimal-premium"
     },
     "layout": {
-      "navbarVariant": "dark-minimal",
-      "footerVariant": "dark-grid",
       "sections": [
-        {
-          "type": "Hero",
-          "variant": "fullscreen-fashion"
-        },
-        {
-          "type": "About",
-          "variant": "minimal-brand"
-        },
-        {
-          "type": "Fabrics",
-          "variant": "fabric-showcase"
-        },
-        {
-          "type": "Process",
-          "variant": "vertical-steps"
-        },
-        {
-          "type": "Gallery",
-          "variant": "editorial-grid"
-        },
-        {
-          "type": "Stats",
-          "variant": "minimal-numbers"
-        },
-        {
-          "type": "Reviews",
-          "variant": "editorial-quotes"
-        },
-        {
-          "type": "CTA",
-          "variant": "dark-luxury"
-        },
-        {
-          "type": "Contact",
-          "variant": "minimal-contact"
-        }
+        { "type": "Hero", "variant": "luxury-parallax" },
+        { "type": "About", "variant": "minimal-brand" },
+        { "type": "Fabrics", "variant": "fabric-spec-grid" },
+        { "type": "Stats", "variant": "minimal-numbers" },
+        { "type": "Process", "variant": "vertical-steps" },
+        { "type": "Reviews", "variant": "marquee-testimonials" },
+        { "type": "Contact", "variant": "split-form" }
       ]
     }
   },
   "website_content": {
     "hero": {
-      "title": "Crafting Excellence in Every Thread.",
-      "subtitle": "Discover bespoke textile solutions and premium garment manufacturing. Redefine your brand with OYC FASHION.",
-      "primaryButton": "Explore Collections",
-      "secondaryButton": "Request a Quote"
+      "tagline": "Architecting High-End Apparel for the World's Leading Fashion Houses",
+      "description": "Atelier Garment Exporters is a premier, luxury apparel and high-performance streetwear manufacturer. Running out of an advanced carbon-neutral facility in Chennai, India, we specialize in high-concept fashion export, working with elite global brands to bring conscious, couture-grade garment production to life at scale."
     },
     "about": {
-      "title": "The Art of Bespoke Textiles.",
-      "description": "OYC FASHION stands as a beacon of quality and innovation in garment manufacturing. We deliver exceptional textile solutions, driven by meticulous craftsmanship and a commitment to your vision."
+      "title": "Crafting conscious garment solutions for the contemporary epoch.",
+      "description": "Atelier Garment Exporters works with elite global brands to bring conscious, couture-grade garment production to life at scale. Operating out of an advanced carbon-neutral facility in Chennai, India, we specialize in high-concept fashion export, zero liquid discharge dyeing, and 3D precision draping."
     },
-    "fabrics": {
-      "title": "Engineered for Comfort, Designed for Durability.",
-      "description": "Our curated selection of premium fabrics sets the foundation for superior garments. Experience the perfect blend of luxury, wearability, and enduring quality in every weave."
-    },
-    "process": {
-      "title": "Precision in Every Stitch.",
-      "description": "From conceptualization to creation, our streamlined manufacturing process ensures unparalleled quality and efficiency. We transform ideas into reality with expert craftsmanship and advanced techniques."
-    },
-    "gallery": {
-      "title": "Visualizing Craftsmanship.",
-      "description": "A curated showcase of our textile artistry and garment expertise. Explore the meticulous detail and premium finish that defines OYC FASHION creations."
-    },
-    "reviews": {
-      "title": "Trusted by Industry Leaders.",
-      "description": "Our clients consistently praise our excellent quality, responsive service, and meticulous attention to detail. Partner with a manufacturer renowned for reliability and exceptional results."
-    },
-    "stats": {
-      "title": "Unwavering Dedication to Quality.",
-      "description": "Our commitment to excellence is reflected in every project. We focus on delivering superior textile solutions that exceed industry standards and client expectations."
-    },
+    "stats": [
+      { "value": "30+", "label": "Global Brands Supported" },
+      { "value": "2.4M", "label": "Annual Garments Shipped" },
+      { "value": "98%", "label": "Water Recycled in Dyeing" },
+      { "value": "100%", "label": "Ethical Labor Compliance" }
+    ],
+    "fabrics": [
+      {
+        "name": "Ultra-Heavyweight Loopback Terry",
+        "weight": "480 GSM",
+        "composition": "100% Organic Long-Staple Cotton",
+        "description": "Designed for premier luxury streetwear. Highly robust structure, immense softness, and a clean structured drape.",
+        "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1600&auto=format&fit=crop"
+      },
+      {
+        "name": "Tailored Silk-Wool Blends",
+        "weight": "240 GSM",
+        "composition": "70% Virgin Wool / 30% Mulberry Silk",
+        "description": "Engineered for high-end luxury draping and soft structure. Breathable warmth with a natural subtle sheen.",
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=1600&auto=format&fit=crop"
+      },
+      {
+        "name": "Technical Recycled Ripstop Nylon",
+        "weight": "110 GSM",
+        "composition": "100% GRS Recycled Post-Consumer Nylon",
+        "description": "Ultra-lightweight micro-ripstop with sustainable water-repellent coating. Engineered for performance outerwear.",
+        "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1600&auto=format&fit=crop"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Ethical Sourcing & Fiber Selection",
+        "description": "We secure superior long-staple organic cottons, sustainable wood-derived Tencel, and certified recycled technical fibers."
+      },
+      {
+        "step": "02",
+        "title": "Architectural Drafting & Pattern Modeling",
+        "description": "Collaborating closely with brand design teams, our engineers utilize advanced 3D pattern scanning for ultra-precise draping."
+      },
+      {
+        "step": "03",
+        "title": "Conscious Wet Processing",
+        "description": "Using high-efficiency low-liquor ratio dyeing machinery that recycles 98% of process water through zero liquid discharge systems."
+      },
+      {
+        "step": "04",
+        "title": "Craftsmanship-First Assembly",
+        "description": "Each line of stitching is managed by specialized artisans with decades of experience in working with high-end tailored garments."
+      }
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600&auto=format&fit=crop",
+        "title": "Precision tailoring assembly line",
+        "category": "Facility"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1600&auto=format&fit=crop",
+        "title": "Premium fashion collection inspection",
+        "category": "Showcase"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1600&auto=format&fit=crop",
+        "title": "Conscious textile washing",
+        "category": "Processing"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=1600&auto=format&fit=crop",
+        "title": "Artisanal quality stitching control",
+        "category": "Craftsmanship"
+      }
+    ],
+    "reviews": [
+      {
+        "quote": "Atelier Exporters changed how we look at technical outerwear production. Their precision pattern engineering matched our strict luxury blueprints perfectly, and their ethical traceability metrics are unparalleled in the global supply chain.",
+        "author": "Marcus Sterling",
+        "role": "Director of Sourcing, Sterling Outerwear (London)"
+      },
+      {
+        "quote": "In high-concept modern streetwear, fabric handfeel and weight are everything. Atelier's custom loopback terry is the finest on the market, period. Their execution of zero-liquid discharge dyeing is a blueprint for the future of apparel.",
+        "author": "Elena Rossi",
+        "role": "Head of Production, NVRMIND Collective (Milan)"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are your Minimum Order Quantities (MOQs)?",
+        "answer": "To maintain our rigorous craftsmanship controls, our standard MOQs are 1,000 units per style / 500 units per colorway. Custom fabric developments may require higher initial volumes depending on fiber sourcing requirements."
+      },
+      {
+        "question": "How do you trace your raw organic fibers?",
+        "answer": "Every shipment of raw material is fully documented with direct transaction certificates under Global Organic Textile Standard (GOTS) and OCS certification. We provide complete transparent supply-chain documentation directly to brand partners."
+      },
+      {
+        "question": "What are your standard shipping lead times?",
+        "answer": "Our normal production timeline spans 8 to 12 weeks from tech-pack signoff and fabric approval. We utilize highly direct ocean cargo corridors via Chennai Port and fast air-freight pathways to major EU/US logistics hubs."
+      }
+    ],
     "cta": {
-      "title": "Elevate Your Brand Identity.",
-      "description": "Ready to transform your vision into premium garments? Partner with OYC FASHION for unparalleled textile manufacturing solutions.",
-      "buttonText": "Start Your Project"
-    },
-    "contact": {
-      "title": "Connect with Our Experts.",
-      "description": "Reach out to discuss your bespoke textile and garment requirements. Our team is ready to assist you.",
-      "buttonText": "Inquire Now"
+      "title": "Secure Your Brand's Next Autumn/Winter Production Run",
+      "subtitle": "Production Allocation",
+      "description": "We are now accepting custom fabric developments and production contracts for the upcoming collection cycle."
     }
+  },
+  "seo": {
+    "title": "Atelier Garment Exporters | High-End Sustainable Apparel Manufacture",
+    "description": "Global, luxury garment and premium streetwear exporters. Operating dynamic carbon-neutral mills specializing in high-concept fashion, ethical organic fibers, and zero liquid discharge production."
+  },
+  "socials": {
+    "instagram": "https://instagram.com/ateliergarments",
+    "linkedin": "https://linkedin.com/company/atelier-garment-exporters"
   }
 }

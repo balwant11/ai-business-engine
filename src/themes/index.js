@@ -133,6 +133,34 @@ export const getThemeStyles = (themeName) => {
   const activeTheme = themes[themeName] || themes["luxury-fashion"];
   const c = activeTheme.colors;
   
+  let borderRadiusVal = "0px";
+  let borderWidthVal = "1px";
+  let buttonPaddingVal = "1rem 2.25rem";
+  let letterSpacingVal = "0.15em";
+  let textTransformVal = "uppercase";
+  let shadowVal = "none";
+
+  if (themeName === "premium-minimal") {
+    borderRadiusVal = "12px";
+    buttonPaddingVal = "0.75rem 1.75rem";
+    letterSpacingVal = "0.025em";
+    textTransformVal = "none";
+    shadowVal = "0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.02)";
+  } else if (themeName === "modern-streetwear") {
+    borderRadiusVal = "0px";
+    borderWidthVal = "2.5px";
+    buttonPaddingVal = "1rem 2rem";
+    letterSpacingVal = "0.2em";
+    textTransformVal = "uppercase";
+    shadowVal = "5px 5px 0px 0px var(--color-primary)";
+  } else if (themeName === "dark-editorial") {
+    borderRadiusVal = "0px";
+    buttonPaddingVal = "1.25rem 2.5rem";
+    letterSpacingVal = "0.25em";
+    textTransformVal = "uppercase";
+    shadowVal = "0 25px 50px -12px rgba(0, 0, 0, 0.8)";
+  }
+  
   return {
     "--color-primary": c.primary,
     "--color-secondary": c.secondary,
@@ -145,7 +173,11 @@ export const getThemeStyles = (themeName) => {
     "--color-text-muted": c.textMuted,
     "--font-heading": activeTheme.fonts.heading,
     "--font-body": activeTheme.fonts.body,
-    "--border-radius": activeTheme.borderRadius,
-    "--shadow": activeTheme.shadows,
+    "--border-radius": borderRadiusVal,
+    "--border-width": borderWidthVal,
+    "--button-padding": buttonPaddingVal,
+    "--letter-spacing": letterSpacingVal,
+    "--text-transform": textTransformVal,
+    "--shadow": shadowVal,
   };
 };

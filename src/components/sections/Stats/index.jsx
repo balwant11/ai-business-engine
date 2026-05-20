@@ -4,11 +4,13 @@ import React from "react";
 import LuxuryGrid from "./variants/LuxuryGrid";
 import MinimalNumbers from "./variants/MinimalNumbers";
 import SplitMetrics from "./variants/SplitMetrics";
+import BrutalistBlocks from "./variants/BrutalistBlocks";
 
 const variants = {
   "luxury-grid": LuxuryGrid,
   "minimal-numbers": MinimalNumbers,
-  "split-metrics": SplitMetrics
+  "split-metrics": SplitMetrics,
+  "brutalist-blocks": BrutalistBlocks
 };
 
 export default function Stats({ variant = "luxury-grid", business = {}, content = {} }) {
