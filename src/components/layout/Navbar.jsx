@@ -228,31 +228,26 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
   if (variant === "centered-logo") {
     return (
       <header className={`sticky top-0 z-50 bg-[var(--color-bg-primary)] border-b border-[var(--color-border)] transition-all duration-500 ${isScrolled ? "py-3 shadow-sm" : "py-6 md:py-8"}`}>
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-12 items-center w-full gap-4">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center w-full gap-4">
           
-          {/* Left links */}
-          <div className="hidden md:flex col-span-4 space-x-6 lg:space-x-8 text-xs uppercase font-bold tracking-[0.15em] text-[var(--color-text-primary)]">
-            {leftLinks.map((link) => (
-              <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
-                {link.label}
-              </a>
-            ))}
-          </div>
-
-          {/* Centered Brand Name */}
-          <div className="col-span-8 md:col-span-4 flex justify-start md:justify-center">
-            <a href="#" className="font-heading font-black tracking-tighter text-sm sm:text-base md:text-lg leading-[0.95] text-[var(--color-text-primary)] uppercase max-w-[180px] md:max-w-[240px] block text-left md:text-center">
+          {/* Brand Name on the Left */}
+          <div className="flex justify-start shrink-0">
+            <a href="#" className="font-heading font-black tracking-tighter text-sm sm:text-base md:text-lg leading-[0.95] text-[var(--color-text-primary)] uppercase max-w-[180px] md:max-w-[240px] block text-left">
               {name || "ATELIER"}
             </a>
           </div>
 
-          {/* Right links + CTA */}
-          <div className="hidden md:flex col-span-4 items-center justify-end gap-6 lg:gap-8 text-xs uppercase font-bold tracking-[0.15em] text-[var(--color-text-primary)]">
-            {rightLinks.map((link) => (
+          {/* Centered links */}
+          <div className="hidden md:flex flex-grow justify-center space-x-6 lg:space-x-8 text-xs uppercase font-bold tracking-[0.15em] text-[var(--color-text-primary)]">
+            {linksToRender.map((link) => (
               <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
                 {link.label}
               </a>
             ))}
+          </div>
+
+          {/* Right CTA */}
+          <div className="hidden md:flex justify-end shrink-0">
             <a 
               href={contactLink} 
               className="border border-[var(--color-text-primary)] text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)] hover:text-[var(--color-bg-primary)] uppercase tracking-[0.15em] text-[11px] font-bold px-5 py-2.5 transition-all duration-500 font-heading whitespace-nowrap"
@@ -262,7 +257,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
           </div>
 
           {/* Mobile menu trigger */}
-          <div className="col-span-4 md:hidden flex justify-end">
+          <div className="md:hidden flex justify-end">
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-[var(--color-text-primary)] focus:outline-none"

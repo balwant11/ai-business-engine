@@ -50,8 +50,8 @@ export default function MinimalDark({ business = {}, content = {} }) {
           </motion.p>
           
           <motion.div variants={fadeInUp} className="flex gap-4">
-            <a href={contactLink} className="bg-[var(--color-primary)] text-black hover:bg-white uppercase font-black tracking-widest text-xs px-8 py-5 transition-all duration-300 border-2 border-[var(--color-primary)]">
-              Initiate Run
+            <a href={contactLink} className="bg-white text-black hover:bg-transparent hover:text-white uppercase font-black tracking-widest text-xs px-8 py-5 transition-all duration-300 border-2 border-white">
+              Initiate Sourcing
             </a>
           </motion.div>
         </motion.div>
