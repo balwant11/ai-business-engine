@@ -22,6 +22,31 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleNavClick = (e, targetId) => {
+    e.preventDefault();
+    setMobileMenuOpen(false);
+    
+    // Extract element ID (e.g. #about -> about)
+    const id = targetId.replace("#", "");
+    const element = document.getElementById(id);
+    
+    if (element) {
+      // 80ms delay gives the mobile menu collapsing animation a moment to run and prevent layout shift scrolling issues
+      setTimeout(() => {
+        const offset = 90; // Premium header offset height
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = element.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }, 80);
+    }
+  };
+
   const SECTION_LABELS = {
     about: "About",
     fabrics: "Fabrics",
@@ -116,7 +141,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
 
             <div className="hidden md:flex space-x-6 lg:space-x-8 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)] shrink-0">
               {linksToRender.map((link) => (
-                <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
+                <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[var(--color-accent)] transition-colors">
                   {link.label}
                 </a>
               ))}
@@ -147,7 +172,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
               >
                 <div className="flex flex-col space-y-4 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)] border-t border-[var(--color-border)] pt-4">
                   {linksToRender.map((link) => (
-                    <a key={link.id} href={link.id} onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">
+                    <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[var(--color-accent)]">
                       {link.label}
                     </a>
                   ))}
@@ -175,7 +200,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
 
           <div className="hidden md:flex space-x-8 lg:space-x-12 text-[10px] uppercase font-black tracking-[0.3em] text-neutral-300 shrink-0">
             {linksToRender.map((link) => (
-              <a key={link.id} href={link.id} className="hover:text-[#FF4500] transition-colors relative group">
+              <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[#FF4500] transition-colors relative group">
                 {link.label}
                 <span className="absolute bottom-[-6px] left-0 right-0 h-0.5 bg-[#FF4500] scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
               </a>
@@ -209,7 +234,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
             >
               <div className="flex flex-col space-y-6 text-[10px] uppercase font-black tracking-[0.3em]">
                 {linksToRender.map((link) => (
-                  <a key={link.id} href={link.id} onClick={() => setMobileMenuOpen(false)} className="hover:text-[#FF4500] text-neutral-300">
+                  <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[#FF4500] text-neutral-300">
                     {link.label}
                   </a>
                 ))}
@@ -240,7 +265,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
           {/* Centered links */}
           <div className="hidden md:flex flex-grow justify-center space-x-6 lg:space-x-8 text-xs uppercase font-bold tracking-[0.15em] text-[var(--color-text-primary)]">
             {linksToRender.map((link) => (
-              <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
+              <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[var(--color-accent)] transition-colors">
                 {link.label}
               </a>
             ))}
@@ -277,7 +302,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
             >
               <div className="flex flex-col space-y-6 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)]">
                 {linksToRender.map((link) => (
-                  <a key={link.id} href={link.id} onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">
+                  <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[var(--color-accent)]">
                     {link.label}
                   </a>
                 ))}
@@ -302,7 +327,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
 
         <div className="hidden md:flex space-x-8 lg:space-x-10 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)] shrink-0">
           {linksToRender.map((link) => (
-            <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors relative py-1">
+            <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[var(--color-accent)] transition-colors relative py-1">
               {link.label}
             </a>
           ))}
@@ -335,7 +360,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
           >
             <div className="flex flex-col space-y-6 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)]">
               {linksToRender.map((link) => (
-                <a key={link.id} href={link.id} onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">
+                <a key={link.id} href={link.id} onClick={(e) => handleNavClick(e, link.id)} className="hover:text-[var(--color-accent)]">
                   {link.label}
                 </a>
               ))}
