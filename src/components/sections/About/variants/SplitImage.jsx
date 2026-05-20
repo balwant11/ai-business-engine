@@ -7,6 +7,8 @@ export default function SplitImage({ business = {}, content = {} }) {
   const aboutContent = content.about || {};
   const { yearEstablished, capacity } = business;
   const { title, description } = aboutContent;
+  const gallery = Array.isArray(content.gallery) ? content.gallery : [];
+  const aboutImg = gallery[0]?.url || null;
 
   if (!description) return null;
 
@@ -27,11 +29,15 @@ export default function SplitImage({ business = {}, content = {} }) {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           className="lg:col-span-6 relative aspect-[4/5] bg-neutral-200 overflow-hidden"
         >
-          <img 
-            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1600&auto=format&fit=crop" 
-            alt="Luxury atelier manufacturing process" 
-            className="absolute inset-0 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
-          />
+          {aboutImg ? (
+            <img 
+              src={aboutImg}
+              alt={title || "Manufacturing process"} 
+              className="absolute inset-0 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
+            />
+          ) : (
+            <div className="absolute inset-0 bg-neutral-800" />
+          )}
           {yearEstablished && (
             <div className="absolute bottom-6 left-6 bg-[var(--color-bg-primary)] px-8 py-6 border border-[var(--color-border)]">
               <p className="text-3xl font-heading text-[var(--color-text-primary)] font-bold">{yearEstablished}</p>

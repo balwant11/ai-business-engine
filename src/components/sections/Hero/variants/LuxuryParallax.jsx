@@ -8,6 +8,8 @@ export default function LuxuryParallax({ business = {}, content = {} }) {
   const { name, email, phone, local_phone } = business;
   const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
   const description = heroContent.description || heroContent.subtitle || "";
+  const gallery = Array.isArray(content.gallery) ? content.gallery : [];
+  const heroImg = gallery[1]?.url || gallery[0]?.url || null;
 
   const targetPhone = phone || local_phone;
   const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
@@ -63,11 +65,13 @@ export default function LuxuryParallax({ business = {}, content = {} }) {
             transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative w-full aspect-[4/5] bg-neutral-900 overflow-hidden border border-[var(--color-border)] shadow-2xl"
           >
-            <img 
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop" 
-              alt="Atelier Luxury Sourcing"
-              className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
-            />
+            {heroImg && (
+              <img 
+                src={heroImg}
+                alt={name || "Luxury Sourcing"}
+                className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
+              />
+            )}
             {/* Elegant Accent Outline */}
             <div className="absolute -inset-4 border border-[var(--color-accent)] opacity-20 -z-10 pointer-events-none" />
           </motion.div>

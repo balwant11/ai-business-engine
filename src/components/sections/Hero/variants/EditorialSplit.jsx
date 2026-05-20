@@ -8,6 +8,8 @@ export default function EditorialSplit({ business = {}, content = {} }) {
   const { name, email, phone, local_phone } = business;
   const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
   const description = heroContent.description || heroContent.subtitle || "";
+  const gallery = Array.isArray(content.gallery) ? content.gallery : [];
+  const heroImg = gallery[0]?.url || null;
   
   const targetPhone = phone || local_phone;
   const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
@@ -62,10 +64,8 @@ export default function EditorialSplit({ business = {}, content = {} }) {
             initial={{ scale: 1.15, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ 
-              backgroundImage: "url('https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1600&auto=format&fit=crop')" 
-            }}
+            className="absolute inset-0 bg-cover bg-center bg-neutral-900"
+            style={heroImg ? { backgroundImage: `url('${heroImg}')` } : {}}
           />
           <div className="absolute inset-0 bg-black/10" />
         </div>

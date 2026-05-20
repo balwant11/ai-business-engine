@@ -8,6 +8,8 @@ export default function FullscreenFashion({ business = {}, content = {} }) {
   const { name, email, phone, local_phone } = business;
   const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
   const description = heroContent.description || heroContent.subtitle || "";
+  const gallery = Array.isArray(content.gallery) ? content.gallery : [];
+  const heroBg = gallery[0]?.url || null;
   
   const targetPhone = phone || local_phone;
   const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
@@ -21,10 +23,8 @@ export default function FullscreenFashion({ business = {}, content = {} }) {
         initial={{ scale: 1.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 0.65 }}
         transition={{ duration: 2 }}
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600&auto=format&fit=crop')" 
-        }}
+        className="absolute inset-0 bg-cover bg-center bg-neutral-900"
+        style={heroBg ? { backgroundImage: `url('${heroBg}')` } : {}}
       />
       
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
