@@ -20,14 +20,16 @@ export default function SectionRenderer({ sections = [], business = {}, content 
         }
 
         try {
+          const sectionId = section.type.toLowerCase();
           return (
-            <SectionComponent
-              key={`${section.type}-${index}`}
-              variant={section.variant}
-              business={business}
-              content={content}
-              config={section}
-            />
+            <div id={sectionId} key={`${section.type}-${index}`}>
+              <SectionComponent
+                variant={section.variant}
+                business={business}
+                content={content}
+                config={section}
+              />
+            </div>
           );
         } catch (error) {
           console.error(`[SectionRenderer] Failed to render section: ${section.type}`, error);

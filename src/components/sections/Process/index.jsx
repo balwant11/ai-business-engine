@@ -12,9 +12,9 @@ const variants = {
 };
 
 export default function Process({ variant = "timeline-editorial", business = {}, content = {} }) {
-  const processList = content.process || [];
+  const processList = Array.isArray(content.process) ? content.process : [];
 
-  if (!processList || processList.length === 0) return null;
+  if (processList.length === 0) return null;
 
   const Component = variants[variant] || TimelineEditorial;
   return <Component process={processList} />;

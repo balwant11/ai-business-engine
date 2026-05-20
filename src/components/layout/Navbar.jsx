@@ -3,8 +3,13 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Navbar({ variant = "transparent-floating", data = {} }) {
-  const { name } = data;
+export default function Navbar({ variant = "transparent-floating", data = {}, sections = [] }) {
+  const { name, email, phone, local_phone } = data;
+  const targetPhone = phone || local_phone;
+  const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
+  const contactLink = email 
+    ? `mailto:${email}` 
+    : (cleanedPhone ? `https://wa.me/${cleanedPhone}` : "#contact");
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -15,6 +20,38 @@ export default function Navbar({ variant = "transparent-floating", data = {} }) 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const SECTION_LABELS = {
+    about: "About",
+    fabrics: "Fabrics",
+    process: "Process",
+    gallery: "Gallery",
+    stats: "Stats",
+    reviews: "Reviews",
+    faq: "FAQ",
+    contact: "Contact"
+  };
+
+  const navLinks = (sections || [])
+    .map(section => {
+      const type = section.type?.toLowerCase();
+      if (SECTION_LABELS[type]) {
+        return {
+          id: `#${type}`,
+          label: SECTION_LABELS[type]
+        };
+      }
+      return null;
+    })
+    .filter(Boolean);
+
+  const fallbackLinks = [
+    { id: "#about", label: "About" },
+    { id: "#fabrics", label: "Fabrics" },
+    { id: "#contact", label: "Contact" }
+  ];
+
+  const linksToRender = navLinks.length > 0 ? navLinks : fallbackLinks;
 
   const navStyles = 
     variant === "transparent-floating"
@@ -29,14 +66,16 @@ export default function Navbar({ variant = "transparent-floating", data = {} }) 
         </a>
 
         <div className="hidden md:flex space-x-10 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)]">
-          <a href="#about" className="hover:text-[var(--color-accent)] transition-colors">Legacy</a>
-          <a href="#fabrics" className="hover:text-[var(--color-accent)] transition-colors">Catalog</a>
-          <a href="#contact" className="hover:text-[var(--color-accent)] transition-colors">Inquiry</a>
+          {linksToRender.map((link) => (
+            <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
+              {link.label}
+            </a>
+          ))}
         </div>
 
         <div className="hidden md:block">
-          <a href="#contact" className="border border-[var(--color-text-primary)] text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)] hover:text-[var(--color-bg-primary)] uppercase tracking-[0.2em] text-[9px] font-bold px-6 py-3 transition-all duration-500 font-heading">
-            Secure Slot
+          <a href={contactLink} className="border border-[var(--color-text-primary)] text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)] hover:text-[var(--color-bg-primary)] uppercase tracking-[0.2em] text-[9px] font-bold px-6 py-3 transition-all duration-500 font-heading">
+            Connect
           </a>
         </div>
 
@@ -57,11 +96,13 @@ export default function Navbar({ variant = "transparent-floating", data = {} }) 
             className="md:hidden absolute top-full left-0 right-0 bg-[var(--color-bg-secondary)] border-b border-[var(--color-border)] py-8 px-6 z-40"
           >
             <div className="flex flex-col space-y-6 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)]">
-              <a href="#about" onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">Legacy</a>
-              <a href="#fabrics" onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">Catalog</a>
-              <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">Inquiry</a>
-              <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="inline-block border border-[var(--color-text-primary)] py-3 text-center uppercase tracking-[0.2em] text-[9px] font-bold font-heading">
-                Secure Slot
+              {linksToRender.map((link) => (
+                <a key={link.id} href={link.id} onClick={() => setMobileMenuOpen(false)} className="hover:text-[var(--color-accent)]">
+                  {link.label}
+                </a>
+              ))}
+              <a href={contactLink} onClick={() => setMobileMenuOpen(false)} className="inline-block border border-[var(--color-text-primary)] py-3 text-center uppercase tracking-[0.2em] text-[9px] font-bold font-heading">
+                Connect
               </a>
             </div>
           </motion.div>

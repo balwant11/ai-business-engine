@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function SplitForm({ business = {} }) {
-  const { email, phone, address } = business;
+  const { email, phone, address, full_address } = business;
+  const contactAddress = address || full_address;
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
@@ -31,10 +32,10 @@ export default function SplitForm({ business = {} }) {
           </p>
 
           <div className="space-y-6">
-            {address && (
+            {contactAddress && (
               <div className="flex gap-4">
                 <span className="text-[var(--color-accent)] font-heading text-xs font-bold uppercase tracking-wider">Office</span>
-                <p className="text-xs text-[var(--color-text-primary)] tracking-wide leading-relaxed font-body">{address}</p>
+                <p className="text-xs text-[var(--color-text-primary)] tracking-wide leading-relaxed font-body">{contactAddress}</p>
               </div>
             )}
             {phone && (

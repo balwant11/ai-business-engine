@@ -13,7 +13,11 @@ export default function Home() {
   
   return (
     <>
-      <Navbar variant={wConfig.navbarVariant} data={bData} />
+      <Navbar 
+        variant={wConfig.navbarVariant} 
+        data={bData} 
+        sections={wConfig.layout?.sections || []} 
+      />
       
       <main className="flex-grow">
         <SectionRenderer 

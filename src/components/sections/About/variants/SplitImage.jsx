@@ -32,10 +32,12 @@ export default function SplitImage({ business = {}, content = {} }) {
             alt="Luxury atelier manufacturing process" 
             className="absolute inset-0 w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
           />
-          <div className="absolute bottom-6 left-6 bg-[var(--color-bg-primary)] px-8 py-6 border border-[var(--color-border)]">
-            <p className="text-3xl font-heading text-[var(--color-text-primary)] font-bold">{yearEstablished}</p>
-            <p className="uppercase text-[9px] tracking-widest text-[var(--color-text-muted)] font-semibold mt-1">Established Mill</p>
-          </div>
+          {yearEstablished && (
+            <div className="absolute bottom-6 left-6 bg-[var(--color-bg-primary)] px-8 py-6 border border-[var(--color-border)]">
+              <p className="text-3xl font-heading text-[var(--color-text-primary)] font-bold">{yearEstablished}</p>
+              <p className="uppercase text-[9px] tracking-widest text-[var(--color-text-muted)] font-semibold mt-1">Established Mill</p>
+            </div>
+          )}
         </motion.div>
 
         <motion.div 

@@ -5,8 +5,15 @@ import { motion } from "framer-motion";
 
 export default function EditorialSplit({ business = {}, content = {} }) {
   const heroContent = content.hero || {};
-  const { name } = business;
-  const { tagline, description } = heroContent;
+  const { name, email, phone, local_phone } = business;
+  const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
+  const description = heroContent.description || heroContent.subtitle || "";
+  
+  const targetPhone = phone || local_phone;
+  const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
+  const contactLink = email 
+    ? `mailto:${email}` 
+    : (cleanedPhone ? `https://wa.me/${cleanedPhone}` : "#contact");
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -44,7 +51,7 @@ export default function EditorialSplit({ business = {}, content = {} }) {
           </motion.p>
           
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
-            <a href="#contact" className="bg-[var(--color-primary)] text-[var(--color-bg-primary)] hover:bg-[var(--color-accent)] uppercase tracking-[0.2em] text-xs font-bold px-8 py-5 transition-all duration-500 text-center font-heading">
+            <a href={contactLink} className="bg-[var(--color-primary)] text-[var(--color-bg-primary)] hover:bg-[var(--color-accent)] uppercase tracking-[0.2em] text-xs font-bold px-8 py-5 transition-all duration-500 text-center font-heading">
               Secure Sourcing Slots
             </a>
           </motion.div>

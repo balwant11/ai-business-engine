@@ -10,9 +10,9 @@ const variants = {
 };
 
 export default function FAQ({ variant = "accordion-minimal", business = {}, content = {} }) {
-  const faqList = content.faq || [];
+  const faqList = Array.isArray(content.faq) ? content.faq : [];
 
-  if (!faqList || faqList.length === 0) return null;
+  if (faqList.length === 0) return null;
 
   const Component = variants[variant] || AccordionMinimal;
   return <Component faq={faqList} />;

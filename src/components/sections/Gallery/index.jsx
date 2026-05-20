@@ -12,10 +12,18 @@ const variants = {
 };
 
 export default function Gallery({ variant = "editorial-grid", business = {}, content = {} }) {
-  const gallery = content.gallery || [];
+  let galleryList = Array.isArray(content.gallery) ? content.gallery : [];
   
-  if (!gallery || gallery.length === 0) return null;
+  if (galleryList.length === 0 && Array.isArray(business.photos)) {
+    galleryList = business.photos.map(p => ({
+      url: p.photo_url,
+      title: business.name || "Gallery Showcase",
+      category: "Showcase"
+    }));
+  }
+
+  if (galleryList.length === 0) return null;
 
   const Component = variants[variant] || EditorialGrid;
-  return <Component gallery={gallery} />;
+  return <Component gallery={galleryList} />;
 }

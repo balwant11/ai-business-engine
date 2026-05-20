@@ -5,8 +5,15 @@ import { motion } from "framer-motion";
 
 export default function FullscreenFashion({ business = {}, content = {} }) {
   const heroContent = content.hero || {};
-  const { name } = business;
-  const { tagline } = heroContent;
+  const { name, email, phone, local_phone } = business;
+  const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
+  const description = heroContent.description || heroContent.subtitle || "";
+  
+  const targetPhone = phone || local_phone;
+  const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
+  const contactLink = email 
+    ? `mailto:${email}` 
+    : (cleanedPhone ? `https://wa.me/${cleanedPhone}` : "#contact");
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
@@ -33,10 +40,15 @@ export default function FullscreenFashion({ business = {}, content = {} }) {
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-heading font-black tracking-tighter leading-none mb-8">
             {name}
           </h1>
-          <p className="text-lg sm:text-xl opacity-90 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+          <p className="text-lg sm:text-xl opacity-90 max-w-2xl mx-auto mb-6 font-semibold leading-relaxed">
             {tagline}
           </p>
-          <a href="#contact" className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-10 py-5 transition-all duration-500 font-heading">
+          {description && (
+            <p className="text-sm sm:text-base opacity-75 max-w-xl mx-auto mb-12 font-light leading-relaxed">
+              {description}
+            </p>
+          )}
+          <a href={contactLink} className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-10 py-5 transition-all duration-500 font-heading">
             Review Capacities
           </a>
         </motion.div>

@@ -5,8 +5,14 @@ import { motion } from "framer-motion";
 
 export default function DarkLuxury({ business = {}, content = {} }) {
   const ctaContent = content.cta || {};
-  const { name } = business;
+  const { name, email, phone, local_phone } = business;
   const { title, subtitle, description } = ctaContent;
+  
+  const targetPhone = phone || local_phone;
+  const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
+  const contactLink = email 
+    ? `mailto:${email}` 
+    : (cleanedPhone ? `https://wa.me/${cleanedPhone}` : "#contact");
 
   return (
     <section className="relative py-28 md:py-36 bg-black text-white overflow-hidden">
@@ -35,7 +41,7 @@ export default function DarkLuxury({ business = {}, content = {} }) {
             {description || `Partner with ${name || "Atelier Exporters"} for premium traceable execution.`}
           </p>
           
-          <a href="#contact" className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-10 py-5 transition-all duration-500 font-heading">
+          <a href={contactLink} className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-10 py-5 transition-all duration-500 font-heading">
             Request Manufacturing Prospectus
           </a>
         </motion.div>

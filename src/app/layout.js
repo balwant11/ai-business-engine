@@ -1,6 +1,7 @@
 import "./globals.css";
 import { getThemeStyles } from "@/themes";
 import businessData from "../../business.json";
+import WhatsAppButton from "@/components/layout/WhatsAppButton";
 
 export async function generateMetadata() {
   const seo = businessData.seo || {};
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         className="bg-[var(--color-bg-primary)] text-[var(--color-text-primary)] antialiased font-body min-h-screen flex flex-col transition-colors duration-500"
       >
         {children}
+        <WhatsAppButton phone={businessData.business?.phone || businessData.business?.local_phone} />
       </body>
     </html>
   );

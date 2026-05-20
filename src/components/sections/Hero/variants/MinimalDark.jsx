@@ -5,8 +5,15 @@ import { motion } from "framer-motion";
 
 export default function MinimalDark({ business = {}, content = {} }) {
   const heroContent = content.hero || {};
-  const { name } = business;
-  const { tagline, description } = heroContent;
+  const { name, email, phone, local_phone } = business;
+  const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
+  const description = heroContent.description || heroContent.subtitle || "";
+  
+  const targetPhone = phone || local_phone;
+  const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
+  const contactLink = email 
+    ? `mailto:${email}` 
+    : (cleanedPhone ? `https://wa.me/${cleanedPhone}` : "#contact");
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -43,7 +50,7 @@ export default function MinimalDark({ business = {}, content = {} }) {
           </motion.p>
           
           <motion.div variants={fadeInUp} className="flex gap-4">
-            <a href="#contact" className="bg-[var(--color-primary)] text-black hover:bg-white uppercase font-black tracking-widest text-xs px-8 py-5 transition-all duration-300 border-2 border-[var(--color-primary)]">
+            <a href={contactLink} className="bg-[var(--color-primary)] text-black hover:bg-white uppercase font-black tracking-widest text-xs px-8 py-5 transition-all duration-300 border-2 border-[var(--color-primary)]">
               Initiate Run
             </a>
           </motion.div>

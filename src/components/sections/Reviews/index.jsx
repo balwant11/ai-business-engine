@@ -12,9 +12,17 @@ const variants = {
 };
 
 export default function Reviews({ variant = "stacked-cards", business = {}, content = {} }) {
-  const reviewsList = content.reviews || [];
+  let reviewsList = Array.isArray(content.reviews) ? content.reviews : [];
+
+  if (reviewsList.length === 0 && Array.isArray(business.reviews)) {
+    reviewsList = business.reviews.map(r => ({
+      quote: r.review,
+      author: r.author_name,
+      role: r.time_ago || "Verified Customer"
+    }));
+  }
   
-  if (!reviewsList || reviewsList.length === 0) return null;
+  if (reviewsList.length === 0) return null;
 
   const Component = variants[variant] || StackedCards;
   return <Component testimonials={reviewsList} />;
