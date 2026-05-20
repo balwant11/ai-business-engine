@@ -22,7 +22,7 @@ export default function MinimalDark({ business = {}, content = {} }) {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center bg-[#0a0a0a] text-white px-6 sm:px-12 lg:px-24">
+    <section className="relative min-h-screen flex items-center bg-[#0a0a0a] text-white px-6 sm:px-12 lg:px-24 overflow-hidden">
       <div className="max-w-6xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 py-24">
         <motion.div 
           initial="initial"
@@ -37,7 +37,7 @@ export default function MinimalDark({ business = {}, content = {} }) {
           
           <motion.h1 
             variants={fadeInUp} 
-            className="text-4xl sm:text-6xl xl:text-7xl font-heading font-black tracking-tight leading-[1.1] mb-8"
+            className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-heading font-black tracking-tight leading-[1.1] mb-8 break-words"
           >
             {tagline}
           </motion.h1>

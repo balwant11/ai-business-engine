@@ -16,7 +16,8 @@ export default function Home() {
       <Navbar 
         variant={wConfig.navbarVariant} 
         data={bData} 
-        sections={wConfig.layout?.sections || []} 
+        sections={wConfig.layout?.sections || []}
+        content={wContent}
       />
       
       <main className="flex-grow">

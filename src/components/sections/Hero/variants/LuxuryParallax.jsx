@@ -36,7 +36,7 @@ export default function LuxuryParallax({ business = {}, content = {} }) {
               [ Premier Sourcing Collective ]
             </span>
             
-            <h1 className="text-4xl sm:text-6xl lg:text-7.5xl font-heading font-black tracking-tight leading-[1.05] text-[var(--color-text-primary)] mb-8">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-black tracking-tight leading-[1.05] text-[var(--color-text-primary)] mb-8 break-words">
               {tagline}
             </h1>
             

@@ -38,7 +38,7 @@ export default function EditorialSplit({ business = {}, content = {} }) {
           
           <motion.h1 
             variants={fadeInUp} 
-            className="text-5xl sm:text-6xl xl:text-7.5xl font-heading text-[var(--color-text-primary)] leading-[1.05] tracking-tighter mb-8 font-black"
+            className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-heading text-[var(--color-text-primary)] leading-[1.1] tracking-tighter mb-8 font-black break-words"
           >
             {tagline || "Architecting Exquisite Textile Systems"}
           </motion.h1>

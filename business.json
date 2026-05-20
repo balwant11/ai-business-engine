@@ -8,22 +8,21 @@
     "capacity": "2.4 Million Garments Annually"
   },
   "website_config": {
-    "theme": "premium-minimal",
-    "navbarVariant": "centered-logo",
-    "footerVariant": "minimal-inline",
+    "theme": "dark-editorial",
+    "navbarVariant": "glassmorphism",
+    "footerVariant": "editorial-footer",
     "branding": {
-      "style": "Clean Textile Atelier",
-      "tone": "minimal-premium"
+      "style": "Avant-Garde Studio",
+      "tone": "mysterious-luxurious"
     },
     "layout": {
       "sections": [
-        { "type": "Hero", "variant": "luxury-parallax" },
-        { "type": "About", "variant": "minimal-brand" },
-        { "type": "Fabrics", "variant": "fabric-spec-grid" },
-        { "type": "Stats", "variant": "minimal-numbers" },
-        { "type": "Process", "variant": "vertical-steps" },
-        { "type": "Reviews", "variant": "marquee-testimonials" },
-        { "type": "Contact", "variant": "split-form" }
+        { "type": "Hero", "variant": "fullscreen-fashion" },
+        { "type": "About", "variant": "editorial-story" },
+        { "type": "Stats", "variant": "split-metrics" },
+        { "type": "Process", "variant": "image-process" },
+        { "type": "Reviews", "variant": "stacked-cards" },
+        { "type": "Contact", "variant": "dark-contact" }
       ]
     }
   },

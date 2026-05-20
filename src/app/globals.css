@@ -9,6 +9,12 @@
   transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.3s ease-in-out;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-body) !important;
   background-color: var(--color-bg-primary);

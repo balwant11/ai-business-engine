@@ -13,10 +13,10 @@ export default function StackedCards({ testimonials = [] }) {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center max-w-2xl mx-auto mb-20"
+          className="text-center max-w-2xl mx-auto mb-16 overflow-hidden"
         >
           <span className="uppercase text-xs tracking-[0.25em] text-[var(--color-accent)] font-semibold mb-4 block">Industry Standards</span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading text-[var(--color-text-primary)] font-black tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading text-[var(--color-text-primary)] font-black tracking-tight break-words">
             Client Verification
           </h2>
         </motion.div>

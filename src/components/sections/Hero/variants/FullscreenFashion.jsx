@@ -34,21 +34,21 @@ export default function FullscreenFashion({ business = {}, content = {} }) {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center w-full overflow-hidden"
         >
           <span className="uppercase text-xs tracking-[0.3em] text-[var(--color-accent)] font-heading mb-6 font-bold">Loom & Mill Immersive</span>
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-heading font-black tracking-tighter leading-none mb-8">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-black tracking-tighter leading-[1.0] mb-6 break-words w-full text-center">
             {name}
           </h1>
-          <p className="text-lg sm:text-xl opacity-90 max-w-2xl mx-auto mb-6 font-semibold leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg opacity-90 max-w-xl mx-auto mb-4 font-semibold leading-relaxed px-2">
             {tagline}
           </p>
           {description && (
-            <p className="text-sm sm:text-base opacity-75 max-w-xl mx-auto mb-12 font-light leading-relaxed">
+            <p className="text-xs sm:text-sm opacity-75 max-w-xl mx-auto mb-10 font-light leading-relaxed px-2">
               {description}
             </p>
           )}
-          <a href={contactLink} className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-10 py-5 transition-all duration-500 font-heading">
+          <a href={contactLink} className="bg-white text-black hover:bg-[var(--color-accent)] hover:text-white uppercase tracking-[0.25em] text-xs font-bold px-8 py-4 transition-all duration-500 font-heading">
             Review Capacities
           </a>
         </motion.div>
