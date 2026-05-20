@@ -4,8 +4,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function Footer({ variant = "editorial-footer", data = {} }) {
-  const { name, email, phone, local_phone, address, full_address, yearEstablished } = data;
+  const { name, email, phone, local_phone, address, full_address, yearEstablished, tagline, type } = data;
   const contactAddress = address || full_address;
+  const businessType = type || tagline || null;
 
   const targetPhone = phone || local_phone;
   const cleanedPhone = targetPhone ? targetPhone.replace(/[^0-9]/g, "") : "";
@@ -19,17 +20,21 @@ export default function Footer({ variant = "editorial-footer", data = {} }) {
           
           <div className="lg:col-span-6 flex flex-col justify-between min-h-[160px]">
             <div>
-              <span className="text-[10px] uppercase tracking-[0.3em] text-[var(--color-accent)] font-bold mb-4 block">
-                [ Atelier Exporters ]
-              </span>
+              {name && (
+                <span className="text-[10px] uppercase tracking-[0.3em] text-[var(--color-accent)] font-bold mb-4 block">
+                  [ {name} ]
+                </span>
+              )}
               <h3 className="font-heading font-black tracking-tighter text-2xl sm:text-3xl lg:text-4xl mb-4 break-words leading-tight">{name || "ATELIER"}</h3>
-              <p className="text-[10px] uppercase tracking-widest text-[var(--color-text-muted)] font-semibold font-heading">
-                {yearEstablished ? `Established ${yearEstablished} / ` : ""}Precision Mill Sourcing
-              </p>
+              {(yearEstablished || businessType) && (
+                <p className="text-[10px] uppercase tracking-widest text-[var(--color-text-muted)] font-semibold font-heading">
+                  {yearEstablished ? `Est. ${yearEstablished}` : ""}{yearEstablished && businessType ? " / " : ""}{businessType || ""}
+                </p>
+              )}
             </div>
             
             <p className="text-[9px] text-[var(--color-text-muted)] tracking-[0.15em] uppercase mt-12 font-body lg:block hidden">
-              © {new Date().getFullYear()} {name || "ATELIER"}. Certified Farm-to-Weave Traceability.
+              © {new Date().getFullYear()} {name || "ATELIER"}. All rights reserved.
             </p>
           </div>
 
@@ -60,7 +65,7 @@ export default function Footer({ variant = "editorial-footer", data = {} }) {
 
           <div className="lg:col-span-12 block lg:hidden border-t border-[var(--color-border)] pt-8 mt-4">
             <p className="text-[9px] text-[var(--color-text-muted)] tracking-[0.15em] uppercase font-body">
-              © {new Date().getFullYear()} {name || "ATELIER"}. Certified Farm-to-Weave Traceability.
+              © {new Date().getFullYear()} {name || "ATELIER"}. All rights reserved.
             </p>
           </div>
         </div>
@@ -80,9 +85,11 @@ export default function Footer({ variant = "editorial-footer", data = {} }) {
                 ACTIVE PIPELINE STATUS
               </span>
               <h3 className="font-heading font-black tracking-widest text-xl sm:text-2xl lg:text-3xl mb-4 text-white uppercase break-words leading-tight">{name || "ATELIER"}</h3>
-              <p className="text-[10px] font-mono tracking-widest text-neutral-400 uppercase">
-                STREETWEAR MANUFACTURING COLLECTIVE
-              </p>
+              {businessType && (
+                <p className="text-[10px] font-mono tracking-widest text-neutral-400 uppercase">
+                  {businessType}
+                </p>
+              )}
             </div>
             
             <p className="text-[9px] font-mono tracking-widest text-neutral-500 uppercase mt-12">
@@ -92,7 +99,9 @@ export default function Footer({ variant = "editorial-footer", data = {} }) {
 
           <div className="border-b md:border-b-0 md:border-r border-[#222222] pb-8 md:pb-0 md:px-8 space-y-6">
             <h4 className="text-[10px] font-mono uppercase tracking-[0.3em] text-[#FF4500] font-black">LOGISTICS MATRIX</h4>
-            <p className="text-xs leading-relaxed text-neutral-300 font-mono">{contactAddress || "SHIPPING TOKYO / BERLIN / MILAN"}</p>
+            {contactAddress ? (
+              <p className="text-xs leading-relaxed text-neutral-300 font-mono">{contactAddress}</p>
+            ) : null}
           </div>
 
           <div className="md:pl-8 space-y-6 flex flex-col justify-between">
@@ -112,9 +121,11 @@ export default function Footer({ variant = "editorial-footer", data = {} }) {
               </div>
             </div>
             
-            <span className="text-[10px] font-mono text-neutral-500 block mt-8">
-              MILL INDEX: certified carbon negative
-            </span>
+            {yearEstablished && (
+              <span className="text-[10px] font-mono text-neutral-500 block mt-8">
+                EST. {yearEstablished}
+              </span>
+            )}
           </div>
         </div>
       </footer>
