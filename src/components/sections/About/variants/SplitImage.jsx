@@ -2,12 +2,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { getPhotos } from "@/lib/getPhotos";
 
 export default function SplitImage({ business = {}, content = {} }) {
   const aboutContent = content.about || {};
   const { yearEstablished, capacity } = business;
   const { title, description } = aboutContent;
-  const gallery = Array.isArray(content.gallery) ? content.gallery : [];
+  const gallery = getPhotos(business, content);
   const aboutImg = gallery[0]?.url || null;
 
   if (!description) return null;

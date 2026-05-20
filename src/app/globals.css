@@ -6,7 +6,12 @@
 
 /* High-end transitions for interactive switches */
 * {
-  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.3s ease-in-out, filter 0.8s ease-out;
+}
+
+/* Dedicated image filter transition for grayscale hover reveal */
+img {
+  transition: filter 1s ease-out, transform 0.8s ease-out !important;
 }
 
 html,

@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
+import { getPhotos } from "@/lib/getPhotos";
 
-export default function ImageProcess({ process = [], content = {} }) {
+export default function ImageProcess({ process = [], content = {}, business = {} }) {
   if (!process || process.length === 0) return null;
-  const gallery = Array.isArray(content?.gallery) ? content.gallery : [];
+  const gallery = getPhotos(business, content);
 
   return (
     <section className="py-24 bg-[var(--color-bg-primary)] border-b border-[var(--color-border)]">

@@ -2,13 +2,14 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { getPhotos } from "@/lib/getPhotos";
 
 export default function LuxuryParallax({ business = {}, content = {} }) {
   const heroContent = content.hero || {};
   const { name, email, phone, local_phone } = business;
   const tagline = heroContent.tagline || heroContent.title || "Crafting Excellence";
   const description = heroContent.description || heroContent.subtitle || "";
-  const gallery = Array.isArray(content.gallery) ? content.gallery : [];
+  const gallery = getPhotos(business, content);
   const heroImg = gallery[1]?.url || gallery[0]?.url || null;
 
   const targetPhone = phone || local_phone;

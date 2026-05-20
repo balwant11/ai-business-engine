@@ -47,14 +47,24 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
       return processArr.length > 0;
     },
     reviews: () => {
-      const reviewArr = Array.isArray(content.testimonials) 
-        ? content.testimonials 
-        : Array.isArray(content.reviews) ? content.reviews : [];
-      return reviewArr.length > 0;
+      // Check content.testimonials or content.reviews with actual text
+      const contentReviews = Array.isArray(content.testimonials)
+        ? content.testimonials.filter(r => r.quote && r.quote.trim())
+        : Array.isArray(content.reviews)
+          ? content.reviews.filter(r => r.quote && r.quote.trim())
+          : [];
+      if (contentReviews.length >= 2) return true;
+      // Fallback: check business.reviews with actual written text (need min 2)
+      const bizReviews = Array.isArray(data.reviews)
+        ? data.reviews.filter(r => r.review && r.review.trim())
+        : [];
+      return bizReviews.length >= 2;
     },
     gallery: () => {
-      const galleryArr = Array.isArray(content.gallery) ? content.gallery : [];
-      return galleryArr.length > 0;
+      // Need min 2 photos from any source (content.gallery array, business.photos, or main_photo_url doesn't count)
+      if (Array.isArray(content.gallery) && content.gallery.length >= 2) return true;
+      if (Array.isArray(data.photos) && data.photos.length >= 2) return true;
+      return false;
     },
     faq: () => {
       const faqArr = Array.isArray(content.faq) ? content.faq : [];
@@ -221,7 +231,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-12 items-center w-full gap-4">
           
           {/* Left links */}
-          <div className="hidden md:flex col-span-4 space-x-6 lg:space-x-8 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)]">
+          <div className="hidden md:flex col-span-4 space-x-6 lg:space-x-8 text-xs uppercase font-bold tracking-[0.15em] text-[var(--color-text-primary)]">
             {leftLinks.map((link) => (
               <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
                 {link.label}
@@ -237,7 +247,7 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
           </div>
 
           {/* Right links + CTA */}
-          <div className="hidden md:flex col-span-4 items-center justify-end gap-6 lg:gap-8 text-[10px] uppercase font-bold tracking-[0.25em] text-[var(--color-text-primary)]">
+          <div className="hidden md:flex col-span-4 items-center justify-end gap-6 lg:gap-8 text-xs uppercase font-bold tracking-[0.15em] text-[var(--color-text-primary)]">
             {rightLinks.map((link) => (
               <a key={link.id} href={link.id} className="hover:text-[var(--color-accent)] transition-colors">
                 {link.label}
@@ -245,9 +255,9 @@ export default function Navbar({ variant = "transparent-floating", data = {}, se
             ))}
             <a 
               href={contactLink} 
-              className="border border-[var(--color-text-primary)] text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)] hover:text-[var(--color-bg-primary)] uppercase tracking-[0.2em] text-[9px] font-bold px-5 py-2.5 transition-all duration-500 font-heading whitespace-nowrap"
+              className="border border-[var(--color-text-primary)] text-[var(--color-text-primary)] hover:bg-[var(--color-text-primary)] hover:text-[var(--color-bg-primary)] uppercase tracking-[0.15em] text-[11px] font-bold px-5 py-2.5 transition-all duration-500 font-heading whitespace-nowrap"
             >
-              Direct Link
+              Contact
             </a>
           </div>
 

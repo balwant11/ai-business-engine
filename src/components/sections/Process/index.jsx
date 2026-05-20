@@ -19,5 +19,5 @@ export default function Process({ variant = "timeline-editorial", business = {},
   if (processList.length === 0) return null;
 
   const Component = variants[variant] || TimelineEditorial;
-  return <Component process={processList} content={content} />;
+  return <Component process={processList} content={content} business={business} />;
 }
